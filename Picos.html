@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador GeoJSON Interactivo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos adicionales para asegurar que el mapa y la lista se muestren correctamente */
+        #map {
+            height: 500px;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 0.5rem;
+            position: relative; /* Añadimos position relative para que el mapa sea un contenedor para el absolute */
+        }
+        .lista-ordenada {
+            margin-top: 20px;
+            list-style-position: inside;
+            overflow-y: auto; /* Añadimos overflow-y para que la lista sea scrollable */
+            max-height: 300px; /* Establecemos una altura máxima para la lista */
+        }
+        .lista-ordenada li {
+             padding: 0.5rem 0;
+             border-bottom: 1px solid rgba(229, 231, 235, 1);
+        }
+        .lista-ordenada li:last-child {
+             border-bottom: none;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        #file-input {
+            margin-bottom: 20px;
+        }
+        .container {
+            padding: 20px;
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            max-width: 90%;
+        }
+        #file-selection{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4">
+    <div class="container">
+        <div id="map"></div>
+        <div id="file-selection" class="mb-4">
+            <label for="file-input" class="block text-gray-700 text-sm font-bold mb-2">Selecciona un archivo GeoJSON:</label>
+            <input type="file" id="file-input" accept=".geojson" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            <p id="file-input-error" class="text-red-500 text-xs italic" style="display: none;">Por favor, selecciona un archivo GeoJSON.</p>
+        </div>
+        <ol id="resultados-lista" class="lista-ordenada">
+        </ol>
+    </div>
+
+    <script>
+        const valenciaCoordinates = [39.4667, -0.3750];
+        const zoomLevel = 9;
+        const map = L.map('map').setView(valenciaCoordinates, zoomLevel);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        const resultadosLista = document.getElementById('resultados-lista');
+        const fileInput = document.getElementById('file-input');
+        const fileInputError = document.getElementById('file-input-error');
+
+        fileInput.addEventListener('change', (event) => {
+            fileInputError.style.display = 'none';
+            const file = event.target.files[0];
+            if (!file) {
+                fileInputError.textContent = "Por favor, selecciona un archivo GeoJSON.";
+                fileInputError.style.display = 'block';
+                return;
+            }
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const geojsonData = JSON.parse(e.target.result);
+                    displayGeoJSONData(geojsonData);
+                } catch (error) {
+                    console.error("Error al analizar el archivo GeoJSON:", error);
+                    resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
+                }
+            };
+            reader.onerror = () => {
+                resultadosLista.innerHTML = `<li class="text-red-500">Error al leer el archivo GeoJSON.</li>`;
+            };
+            reader.readAsText(file);
+        });
+
+        function displayGeoJSONData(geojsonData) {
+            resultadosLista.innerHTML = '';
+            try {
+                // Verificar si es un objeto GeoJSON válido
+                if (!geojsonData || typeof geojsonData !== 'object' || geojsonData.type !== 'FeatureCollection') {
+                    throw new Error("No es un objeto GeoJSON válido. Debe ser un FeatureCollection.");
+                }
+                if (!geojsonData.features || !Array.isArray(geojsonData.features)) {
+                    throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
+                }
+                const geojsonLayer = L.geoJSON(geojsonData, {
+                    onEachFeature: function (feature, layer) {
+                        if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
+                            const lat = feature.geometry.coordinates[1];
+                            const lng = feature.geometry.coordinates[0];
+                            const popupContent = `<b>${feature.properties.name || 'Sin nombre'}</b><br>
+                                                  Altura: ${feature.properties.ele || 'N/A'} m<br>
+                                                  <a href="https://www.google.com/maps/place/${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
+                            layer.bindPopup(popupContent);
+                        }
+                    }
+                }).addTo(map);
+                const bounds = geojsonLayer.getBounds();
+                if (bounds.isValid()) {
+                    map.fitBounds(bounds);
+                }
+                let listaHTML = '';
+                let elementCount = 0;
+                const elementos = [];
+                geojsonData.features.forEach(feature => {
+                    elementCount++;
+                    let nombre = "Sin nombre";
+                    let tipo = "Elemento";
+                    let lat = null;
+                    let lng = null;
+                    let altura = feature.properties.ele || null;  // Obtiene la altura
+                    if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
+                        lat = feature.geometry.coordinates[1];
+                        lng = feature.geometry.coordinates[0];
+                    }
+                    // Comprobar si la propiedad 'name' existe antes de acceder a ella
+                    nombre = feature.properties && feature.properties.name ? feature.properties.name : "Sin nombre";
+                     elementos.push({ nombre, tipo, lat, lng, altura });
+                });
+                elementos.sort((a, b) => {
+                    if (a.altura === null) return 1;
+                    if (b.altura === null) return -1;
+                    return b.altura - a.altura;
+                });
+
+                elementos.forEach(elemento => {
+                    if (elemento.altura >= 1000) { // Solo incluir picos con altura >= 1000
+                        listaHTML += `<li><a href="https://www.google.com/maps/place/${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
+                    }
+                });
+                if (elementCount === 0) {
+                    listaHTML = `<li class="text-gray-500">No se encontraron elementos en el archivo GeoJSON.</li>`;
+                }
+                resultadosLista.innerHTML = listaHTML;
+            } catch (error) {
+                console.error("Error al procesar GeoJSON:", error);
+                resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
+            }
+        }
+    </script>
+</body>
+</html>
