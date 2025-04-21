@@ -14,13 +14,13 @@
             width: 100%;
             margin-bottom: 20px;
             border-radius: 0.5rem;
-            position: relative; /* Añadimos position relative para que el mapa sea un contenedor para el absolute */
+            position: relative;
         }
         .lista-ordenada {
             margin-top: 20px;
             list-style-position: inside;
-            overflow-y: auto; /* Añadimos overflow-y para que la lista sea scrollable */
-            max-height: 300px; /* Establecemos una altura máxima para la lista */
+            overflow-y: auto;
+            max-height: 300px;
         }
         .lista-ordenada li {
              padding: 0.5rem 0;
@@ -46,6 +46,7 @@
         #file-selection{
             width: 100%;
             margin-bottom: 20px;
+            display:none; /* ocultamos el input de selección de archivos */
         }
     </style>
 </head>
@@ -60,7 +61,6 @@
         <ol id="resultados-lista" class="lista-ordenada">
         </ol>
     </div>
-
     <script>
         const valenciaCoordinates = [39.4667, -0.3750];
         const zoomLevel = 9;
@@ -72,32 +72,33 @@
         const fileInput = document.getElementById('file-input');
         const fileInputError = document.getElementById('file-input-error');
 
-        fileInput.addEventListener('change', (event) => {
-            fileInputError.style.display = 'none';
-            const file = event.target.files[0];
-            if (!file) {
-                fileInputError.textContent = "Por favor, selecciona un archivo GeoJSON.";
-                fileInputError.style.display = 'block';
-                return;
-            }
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                try {
-                    const geojsonData = JSON.parse(e.target.result);
-                    displayGeoJSONData(geojsonData);
-                } catch (error) {
-                    console.error("Error al analizar el archivo GeoJSON:", error);
-                    resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
-                }
-            };
-            reader.onerror = () => {
-                resultadosLista.innerHTML = `<li class="text-red-500">Error al leer el archivo GeoJSON.</li>`;
-            };
-            reader.readAsText(file);
-        });
+        const archivosGeoJSON = [
+            'Alicante.geojson',
+            'Castellon.geojson',
+            'Valencia.geojson'
+        ];
+
+        function cargarArchivosGeoJSON() {
+            archivosGeoJSON.forEach(archivo => {
+                fetch(archivo)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Error al cargar el archivo: ${archivo}`);
+                        }
+                        return response.json();
+                    })
+                    .then(geojsonData => {
+                        displayGeoJSONData(geojsonData);
+                    })
+                    .catch(error => {
+                        console.error("Error al cargar o procesar GeoJSON:", error);
+                        resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar el archivo ${archivo}. Por favor, verifica la ruta y el formato. Detalles: ${error.message}</li>`;
+                    });
+            });
+        }
+
 
         function displayGeoJSONData(geojsonData) {
-            resultadosLista.innerHTML = '';
             try {
                 // Verificar si es un objeto GeoJSON válido
                 if (!geojsonData || typeof geojsonData !== 'object' || geojsonData.type !== 'FeatureCollection') {
@@ -131,23 +132,22 @@
                     let tipo = "Elemento";
                     let lat = null;
                     let lng = null;
-                    let altura = feature.properties.ele || null;  // Obtiene la altura
+                     let altura = feature.properties.ele || null;
                     if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                         lat = feature.geometry.coordinates[1];
                         lng = feature.geometry.coordinates[0];
                     }
                     // Comprobar si la propiedad 'name' existe antes de acceder a ella
                     nombre = feature.properties && feature.properties.name ? feature.properties.name : "Sin nombre";
-                     elementos.push({ nombre, tipo, lat, lng, altura });
+                    elementos.push({ nombre, tipo, lat, lng, altura });
                 });
-                elementos.sort((a, b) => {
+                 elementos.sort((a, b) => {
                     if (a.altura === null) return 1;
                     if (b.altura === null) return -1;
                     return b.altura - a.altura;
                 });
-
                 elementos.forEach(elemento => {
-                    if (elemento.altura >= 1000) { // Solo incluir picos con altura >= 1000
+                   if (elemento.altura >= 1000) {
                         listaHTML += `<li><a href="https://www.google.com/maps/place/${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
                     }
                 });
@@ -160,6 +160,12 @@
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
             }
         }
+
+        // Cargar los archivos GeoJSON automáticamente al cargar la página
+        window.onload = cargarArchivosGeoJSON;
     </script>
+</body>
+</html>
+
 </body>
 </html>
