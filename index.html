@@ -14,13 +14,13 @@
             width: 100%;
             margin-bottom: 20px;
             border-radius: 0.5rem;
-            position: relative; /* AÒadimos position relative para que el mapa sea un contenedor para el absolute */
+            position: relative; /* A√±adimos position relative para que el mapa sea un contenedor para el absolute */
         }
         .lista-ordenada {
             margin-top: 20px;
             list-style-position: inside;
-            overflow-y: auto; /* AÒadimos overflow-y para que la lista sea scrollable */
-            max-height: 300px; /* Establecemos una altura m·xima para la lista */
+            overflow-y: auto; /* A√±adimos overflow-y para que la lista sea scrollable */
+            max-height: 300px; /* Establecemos una altura m√°xima para la lista */
         }
         .lista-ordenada li {
              padding: 0.5rem 0;
@@ -66,7 +66,7 @@
         const zoomLevel = 9;
         const map = L.map('map').setView(valenciaCoordinates, zoomLevel);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            attribution: '¬© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         const resultadosLista = document.getElementById('resultados-lista');
         const fileInput = document.getElementById('file-input');
@@ -99,9 +99,9 @@
         function displayGeoJSONData(geojsonData) {
             resultadosLista.innerHTML = '';
             try {
-                // Verificar si es un objeto GeoJSON v·lido
+                // Verificar si es un objeto GeoJSON v√°lido
                 if (!geojsonData || typeof geojsonData !== 'object' || geojsonData.type !== 'FeatureCollection') {
-                    throw new Error("No es un objeto GeoJSON v·lido. Debe ser un FeatureCollection.");
+                    throw new Error("No es un objeto GeoJSON v√°lido. Debe ser un FeatureCollection.");
                 }
                 if (!geojsonData.features || !Array.isArray(geojsonData.features)) {
                     throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
