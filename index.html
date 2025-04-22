@@ -195,9 +195,10 @@
                         if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                             const lat = feature.geometry.coordinates[1];
                             const lng = feature.geometry.coordinates[0];
+                            // Corregido el formato de la URL de Google Maps
                             const popupContent = `<b>${feature.properties.name || 'Sin nombre'}</b><br>
                                                   Altura: ${feature.properties.ele || 'N/A'} m<br>
-                                                  <a href="https://www.google.com/maps/place/$$${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
+                                                  <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
                             layer.bindPopup(popupContent);
                         }
                     }
@@ -234,7 +235,7 @@
                     return b.altura - a.altura;
                 });
                 elementos.forEach(elemento => {
-                    listaHTML += `<li><a href="https://www.google.com/maps/place/$${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
+                    listaHTML += `<li><a href="https://www.google.com/maps?q=${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
                 });
                 if (elementCount === 0) {
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
