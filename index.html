@@ -211,6 +211,19 @@
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
                 }
                 resultadosLista.innerHTML = listaHTML;
+
+                // Añadimos esta sección de depuración para inspeccionar los datos
+                console.log("GeoJSON Data:", geojsonData);
+                console.log("Filtered GeoJSON Data:", filteredGeojsonData);
+                console.log("Number of features:", geojsonData.features.length);
+                console.log("Number of filtered features:", filteredGeojsonData.features.length);
+                if (geojsonData.features.length > 0) {
+                    console.log("First feature:", geojsonData.features[0]);
+                }
+                if (filteredGeojsonData.features.length > 0) {
+                    console.log("First filtered feature:", filteredGeojsonData.features[0]);
+                }
+
             } catch (error) {
                 console.error("Error al procesar GeoJSON:", error);
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
@@ -221,5 +234,6 @@
     </script>
 </body>
 </html>
+
 
 
