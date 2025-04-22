@@ -114,6 +114,8 @@
         const fileInputError = document.getElementById('file-input-error');
         const peakCountElement = document.getElementById('peak-count');
 
+        let geojsonLayer; // Declarar geojsonLayer aquí, en un ámbito global
+
         // Función para obtener la lista de archivos GeoJSON del directorio
         function cargarArchivosGeoJSON() {
             // Lista de nombres de archivo GeoJSON
