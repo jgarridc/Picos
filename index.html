@@ -19,7 +19,7 @@
             margin-top: 0;
             list-style-position: inside;
             overflow-y: auto;
-            max-height: 500px;
+            max-height: 450px; /* Ajustamos la altura para dejar espacio al contador */
             width: 33.33%;
             padding-right: 1rem;
         }
@@ -72,6 +72,13 @@
         #file-selection label {
             margin-bottom: 0.25rem; /* Añadimos un pequeño margen inferior al label */
         }
+        #peak-count {
+            margin-top: 1rem;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #333;
+            text-align: center; /* Centramos el contador */
+        }
     </style>
 </head>
 <body class="bg-gray-100 p-4">
@@ -88,7 +95,7 @@
             <ol id="resultados-lista" class="lista-ordenada">
             </ol>
         </div>
-    </div>
+        <div id="peak-count"></div> </div>
     <script>
         const valenciaCoordinates = [39.4667, -0.3750];
         const zoomLevel = 9;
@@ -99,6 +106,7 @@
         const resultadosLista = document.getElementById('resultados-lista');
         const provinceSelect = document.getElementById('province-select');
         const fileInputError = document.getElementById('file-input-error');
+        const peakCountElement = document.getElementById('peak-count'); // Obtenemos el elemento para mostrar el contador
 
         const archivosGeoJSON = [
             'Alicante.geojson',
@@ -166,6 +174,7 @@
 
                 // Crear un nuevo objeto GeoJSON con las features filtradas
                 const filteredGeojsonData = { ...geojsonData, features: filteredFeatures };
+                const numberOfPicos = filteredGeojsonData.features.length; // Contamos los picos
 
                 geojsonLayer = L.geoJSON(filteredGeojsonData, {
                     onEachFeature: function (feature, layer) {
@@ -217,9 +226,11 @@
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
                 }
                 resultadosLista.innerHTML = listaHTML;
+                peakCountElement.textContent = `Total de picos: ${numberOfPicos}`; // Mostramos el total de picos
             } catch (error) {
                 console.error("Error al procesar GeoJSON:", error);
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
+                peakCountElement.textContent = ''; // Limpiamos el contador en caso de error
             }
         }
 
