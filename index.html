@@ -189,7 +189,7 @@
                     let tipo = "Elemento";
                     let lat = null;
                     let lng = null;
-                    let altura = feature.properties.ele || null;
+                    let altura = feature.properties.ele || null; // Accedemos a la altura usando feature.properties
                     if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                         lat = feature.geometry.coordinates[1];
                         lng = feature.geometry.coordinates[0];
@@ -221,4 +221,5 @@
     </script>
 </body>
 </html>
+
 
