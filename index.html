@@ -87,13 +87,13 @@
             'Valencia.geojson'
         ];
 
-        let geojsonLayer; // Variable para almacenar la capa GeoJSON
+        let geojsonLayer; // Variable para almacenar la capa GeoJSON, ¡importante!
 
         function cargarArchivosGeoJSON() {
             // Limpiar el select
             provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
             archivosGeoJSON.forEach(archivo => {
-                const nombreProvincia = archivo.replace('.geojson', ''); // Elimina la extensión .geojson
+                const nombreProvincia = archivo.replace('.geojson', '');
                 const option = document.createElement('option');
                 option.value = archivo;
                 option.textContent = nombreProvincia;
@@ -122,7 +122,6 @@
             });
         }
 
-
         function displayGeoJSONData(geojsonData) {
             resultadosLista.innerHTML = '';
             try {
@@ -134,12 +133,12 @@
                     throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
                 }
 
-                // Eliminar la capa anterior si existe
+                // Eliminar la capa anterior si existe.  ¡Aquí está la clave!
                 if (geojsonLayer) {
                     map.removeLayer(geojsonLayer);
                 }
 
-                geojsonLayer = L.geoJSON(geojsonData, {
+                geojsonLayer = L.geoJSON(geojsonData, { // Ahora asignamos la capa a la variable global
                     onEachFeature: function (feature, layer) {
                         if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                             const lat = feature.geometry.coordinates[1];
@@ -166,7 +165,7 @@
                     let tipo = "Elemento";
                     let lat = null;
                     let lng = null;
-                     let altura = feature.properties.ele || null;
+                    let altura = feature.properties.ele || null;
                     if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                         lat = feature.geometry.coordinates[1];
                         lng = feature.geometry.coordinates[0];
@@ -175,13 +174,13 @@
                     nombre = feature.properties && feature.properties.name ? feature.properties.name : "Sin nombre";
                     elementos.push({ nombre, tipo, lat, lng, altura });
                 });
-                 elementos.sort((a, b) => {
+                elementos.sort((a, b) => {
                     if (a.altura === null) return 1;
                     if (b.altura === null) return -1;
                     return b.altura - a.altura;
                 });
                 elementos.forEach(elemento => {
-                   if (elemento.altura >= 1000) {
+                    if (elemento.altura >= 1000) {
                         listaHTML += `<li><a href="https://www.google.com/maps/place/${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
                     }
                 });
@@ -198,9 +197,5 @@
         // Cargar los archivos GeoJSON automáticamente al cargar la página
         window.onload = cargarArchivosGeoJSON;
     </script>
-</body>
-</html>
-
-
 </body>
 </html>
