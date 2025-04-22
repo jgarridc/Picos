@@ -153,7 +153,16 @@
                     map.removeLayer(geojsonLayer);
                 }
 
-                geojsonLayer = L.geoJSON(geojsonData, {
+                // Filtrar features para mostrar solo los que tienen una altura mayor o igual a 1000 metros
+                const filteredFeatures = geojsonData.features.filter(feature => {
+                    const altura = feature.properties.ele;
+                    return typeof altura === 'number' && altura >= 1000;
+                });
+
+                // Crear un nuevo objeto GeoJSON con las features filtradas
+                const filteredGeojsonData = { ...geojsonData, features: filteredFeatures };
+
+                geojsonLayer = L.geoJSON(filteredGeojsonData, {
                     onEachFeature: function (feature, layer) {
                         if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                             const lat = feature.geometry.coordinates[1];
@@ -174,7 +183,7 @@
                 let listaHTML = '';
                 let elementCount = 0;
                 const elementos = [];
-                geojsonData.features.forEach(feature => {
+                filteredGeojsonData.features.forEach(feature => { // Usamos filteredGeojsonData.features
                     elementCount++;
                     let nombre = "Sin nombre";
                     let tipo = "Elemento";
@@ -199,7 +208,7 @@
                     }
                 });
                 if (elementCount === 0) {
-                    listaHTML = `<li class="text-gray-500">No se encontraron elementos en el archivo GeoJSON.</li>`;
+                    listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
                 }
                 resultadosLista.innerHTML = listaHTML;
             } catch (error) {
@@ -212,3 +221,4 @@
     </script>
 </body>
 </html>
+
