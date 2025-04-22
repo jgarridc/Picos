@@ -1,0 +1,8292 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-22T16:41:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26864595",
+        "alt_name": "Serra Calva",
+        "alt_name:es": "Sierra Calva",
+        "alt_name:gl": "Serra Calva",
+        "description": "Es el pico más alto del parque natural",
+        "ele": "2127",
+        "image": "https://images.app.goo.gl/z3Vb5kFWkeKByEWX9",
+        "name": "Pena Trevinca",
+        "name:en": "Pena Trevinca",
+        "name:es": "Peña Trevinca",
+        "name:gl": "Pena Trevinca",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q3328243",
+        "wikipedia": "gl:Pena Trevinca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7960663,
+          42.2423673
+        ]
+      },
+      "id": "node/26864595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575686781",
+        "ele": "2116",
+        "name": "Pena Surbia",
+        "name:es": "Pena Surbia",
+        "name:gl": "Pena Surbia",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q5401659",
+        "wikipedia": "gl:Pena Surbia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7759018,
+          42.2555617
+        ]
+      },
+      "id": "node/575686781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575686980",
+        "name": "O Miradeiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9420871,
+          42.3932993
+        ]
+      },
+      "id": "node/575686980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575687040",
+        "ele": "1363",
+        "name": "Pena Cabrón",
+        "name:gl": "Pena Cabrón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116923798"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9749895,
+          42.3574685
+        ]
+      },
+      "id": "node/575687040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575687095",
+        "ele": "1562",
+        "name": "Campanario",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116923461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9029143,
+          42.3133811
+        ]
+      },
+      "id": "node/575687095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575687134",
+        "name": "A Poula do Penouco",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116923429"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8569287,
+          42.28335
+        ]
+      },
+      "id": "node/575687134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575687190",
+        "name": "A Portela de Vila",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8967413,
+          42.4311302
+        ]
+      },
+      "id": "node/575687190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575687194",
+        "name": "Alto da Malosa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8866963,
+          42.4328135
+        ]
+      },
+      "id": "node/575687194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575687200",
+        "name": "Pena do Coto",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8700187,
+          42.4387183
+        ]
+      },
+      "id": "node/575687200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575734239",
+        "name": "Coto da Cruz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2725925,
+          42.28015
+        ]
+      },
+      "id": "node/575734239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575734240",
+        "name": "Coto Agudo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2693161,
+          42.2751785
+        ]
+      },
+      "id": "node/575734240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575740279",
+        "name": "O Picouto",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.114413,
+          42.3508496
+        ]
+      },
+      "id": "node/575740279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575740525",
+        "name": "A Cabeciña",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116924246"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0822006,
+          42.266392
+        ]
+      },
+      "id": "node/575740525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575760038",
+        "name": "O Cabezón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9349586,
+          42.5191884
+        ]
+      },
+      "id": "node/575760038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575760080",
+        "alt_name": "A Silla da Reina",
+        "name": "A Cadeira da Raíña",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9719113,
+          42.4810007
+        ]
+      },
+      "id": "node/575760080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575760089",
+        "name": "As Tres Marías",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9809672,
+          42.4700158
+        ]
+      },
+      "id": "node/575760089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575760173",
+        "name": "Alto da Fraga da Cerva",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.12985,
+          42.4465914
+        ]
+      },
+      "id": "node/575760173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576767415",
+        "name": "Alto de Baldriz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5187126,
+          42.0363972
+        ]
+      },
+      "id": "node/576767415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576825530",
+        "ele": "1504",
+        "name": "Chairas de Fardán",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4645031,
+          42.1898949
+        ]
+      },
+      "id": "node/576825530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576825627",
+        "ele": "1409",
+        "name": "Alto das Cancelas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4647255,
+          42.2299528
+        ]
+      },
+      "id": "node/576825627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576908171",
+        "name": "Alto do Val do Castelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0898423,
+          42.4779664
+        ]
+      },
+      "id": "node/576908171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576908175",
+        "name": "A Cruz das Chas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0933385,
+          42.472457
+        ]
+      },
+      "id": "node/576908175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576908185",
+        "name": "Alto do Pedriño",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1000084,
+          42.4585772
+        ]
+      },
+      "id": "node/576908185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576943953",
+        "name": "As Fragas de Outacín",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1987925,
+          42.2008394
+        ]
+      },
+      "id": "node/576943953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576944032",
+        "name": "A Pedra do Coello",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116924218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0789766,
+          42.2318498
+        ]
+      },
+      "id": "node/576944032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/576944089",
+        "name": "O Sestil Cerrado",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116924151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9569895,
+          42.1777462
+        ]
+      },
+      "id": "node/576944089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577077289",
+        "name": "Alto do Rebouzo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2566857,
+          42.0660844
+        ]
+      },
+      "id": "node/577077289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577077618",
+        "ele": "781",
+        "name": "Penedos da Moura",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6918854,
+          42.3063729
+        ]
+      },
+      "id": "node/577077618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577080247",
+        "name": "Alto Souto do Rei",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4464977,
+          42.0145888
+        ]
+      },
+      "id": "node/577080247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577080328",
+        "name": "Alto do Corgo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3977002,
+          42.0377396
+        ]
+      },
+      "id": "node/577080328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577080702",
+        "ele": "1452",
+        "name": "Alto do Sabugal",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4642826,
+          42.1721662
+        ]
+      },
+      "id": "node/577080702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577127083",
+        "ele": "1161",
+        "name": "Cabeza de Valongo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2756154,
+          42.070328
+        ]
+      },
+      "id": "node/577127083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/883517436",
+        "alt_name": "A Cabeza Grande",
+        "ele": "1781",
+        "name": "Cabeza de Manzaneda",
+        "natural": "peak",
+        "wikidata": "Q12255583",
+        "wikipedia": "gl:Monte de Cabeza de Manzaneda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2980422,
+          42.2569501
+        ]
+      },
+      "id": "node/883517436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948406090",
+        "ele": "1289.10",
+        "name": "A Pena da Cruz",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4031546,
+          42.3316407
+        ]
+      },
+      "id": "node/948406090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948406969",
+        "ele": "1705.50",
+        "name": "O Seixo",
+        "natural": "peak",
+        "wikidata": "Q12393504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3576653,
+          42.1942963
+        ]
+      },
+      "id": "node/948406969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948407945",
+        "ele": "959.80",
+        "name": "Penedos",
+        "natural": "peak",
+        "wikidata": "Q115507610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1414245,
+          42.1841133
+        ]
+      },
+      "id": "node/948407945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948408599",
+        "ele": "1316.30",
+        "name": "Meda",
+        "natural": "peak",
+        "wikidata": "Q115505982"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6104423,
+          42.3500074
+        ]
+      },
+      "id": "node/948408599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241969763",
+        "name": "O Altar de Cabróns",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0536451,
+          41.8241105
+        ]
+      },
+      "id": "node/1241969763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241972590",
+        "ele": "1258",
+        "name": "Alto do Facho",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8864041,
+          41.8644459
+        ]
+      },
+      "id": "node/1241972590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241974444",
+        "name": "O Cabezo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0467629,
+          41.9690798
+        ]
+      },
+      "id": "node/1241974444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241981615",
+        "ele": "1026",
+        "name": "Penedo dos Tres Reis",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9887188,
+          41.9745225
+        ]
+      },
+      "id": "node/1241981615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241982031",
+        "name": "Pedra Dereito",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9414802,
+          41.8816224
+        ]
+      },
+      "id": "node/1241982031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241992519",
+        "ele": "1273",
+        "name": "Alto do Foxo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8901566,
+          41.8588825
+        ]
+      },
+      "id": "node/1241992519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1250029049",
+        "name": "Alto da Abellonciña",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9970649,
+          42.499158
+        ]
+      },
+      "id": "node/1250029049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1250039150",
+        "ele": "1612",
+        "name": "Turrieira",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0009764,
+          42.5054941
+        ]
+      },
+      "id": "node/1250039150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260549571",
+        "name": "Alto Ladeira da Medias",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7892723,
+          42.2536647
+        ]
+      },
+      "id": "node/1260549571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260550200",
+        "ele": "2121",
+        "name": "A Pena Negra",
+        "name:es": "Peña Negra",
+        "name:gl": "A Pena Negra",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q12397462",
+        "wikipedia": "gl:Pena Negra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7942045,
+          42.249536
+        ]
+      },
+      "id": "node/1260550200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304105554",
+        "name": "Pena Carballosa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9374165,
+          42.5629524
+        ]
+      },
+      "id": "node/1304105554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304105607",
+        "name": "O Serro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1027578,
+          42.3063501
+        ]
+      },
+      "id": "node/1304105607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304105858",
+        "name": "Alto da Boucisca",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0778555,
+          42.425658
+        ]
+      },
+      "id": "node/1304105858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304105896",
+        "name": "Pena de Santa Engracia",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3806338,
+          42.2899292
+        ]
+      },
+      "id": "node/1304105896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304105929",
+        "name": "O Rañadoiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9108564,
+          42.2577458
+        ]
+      },
+      "id": "node/1304105929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106041",
+        "ele": "1477",
+        "name": "Alto das Veigas Longas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2453464,
+          42.22768
+        ]
+      },
+      "id": "node/1304106041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106220",
+        "name": "A Pedra Frita",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9079764,
+          42.2129182
+        ]
+      },
+      "id": "node/1304106220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106275",
+        "name": "Pena Loba",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8123358,
+          41.9604838
+        ]
+      },
+      "id": "node/1304106275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106344",
+        "name": "As Chairas de Maceda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3147484,
+          42.2580173
+        ]
+      },
+      "id": "node/1304106344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106395",
+        "name": "Alto do Pendón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1539969,
+          42.2091978
+        ]
+      },
+      "id": "node/1304106395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106634",
+        "ele": "1531",
+        "name": "Alto da Fornosiña",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4845475,
+          42.1957051
+        ]
+      },
+      "id": "node/1304106634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304106669",
+        "name": "Alto do Candal",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3353527,
+          42.0605526
+        ]
+      },
+      "id": "node/1304106669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107028",
+        "name": "O Castro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7528093,
+          42.1839676
+        ]
+      },
+      "id": "node/1304107028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107042",
+        "name": "A Espenuca",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0351288,
+          42.3165698
+        ]
+      },
+      "id": "node/1304107042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107207",
+        "name": "Pena Trevinca Norte",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q12397465",
+        "wikipedia": "gl:Pena Trevinca Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7879021,
+          42.257835
+        ]
+      },
+      "id": "node/1304107207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107522",
+        "name": "Santa Ouxea",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1842541,
+          42.2841598
+        ]
+      },
+      "id": "node/1304107522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107621",
+        "name": "Alto da Abada",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1335483,
+          42.2812662
+        ]
+      },
+      "id": "node/1304107621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107748",
+        "name": "Alto de Casteloais",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3903811,
+          42.2839243
+        ]
+      },
+      "id": "node/1304107748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304107801",
+        "ele": "1226",
+        "name": "O Pico de San Bernabé",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116924230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0963385,
+          42.2407561
+        ]
+      },
+      "id": "node/1304107801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108051",
+        "ele": "1451",
+        "name": "Alto das Bouzas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.463671,
+          42.181558
+        ]
+      },
+      "id": "node/1304108051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108240",
+        "name": "Outeiro dos Corvos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1039429,
+          42.236693
+        ]
+      },
+      "id": "node/1304108240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108310",
+        "name": "San Cibrao",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1011455,
+          42.3141508
+        ]
+      },
+      "id": "node/1304108310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108443",
+        "name": "A Coriscada",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5042207,
+          42.2350497
+        ]
+      },
+      "id": "node/1304108443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108481",
+        "name": "Alto dos Filgueiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4604353,
+          42.0432511
+        ]
+      },
+      "id": "node/1304108481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108636",
+        "name": "O Picouto",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9212508,
+          42.507047
+        ]
+      },
+      "id": "node/1304108636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304108784",
+        "name": "Alto da Outar Pedroso",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1592389,
+          42.295943
+        ]
+      },
+      "id": "node/1304108784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109007",
+        "name": "O Castro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0644224,
+          42.1926451
+        ]
+      },
+      "id": "node/1304109007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109256",
+        "name": "Toco do Lobo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0821796,
+          42.262495
+        ]
+      },
+      "id": "node/1304109256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109438",
+        "name": "Peña Redonda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8816089,
+          42.3266879
+        ]
+      },
+      "id": "node/1304109438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109472",
+        "name": "Alto dos Toleiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3123066,
+          42.2486602
+        ]
+      },
+      "id": "node/1304109472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109562",
+        "name": "A Pena Aguda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9238036,
+          42.226713
+        ]
+      },
+      "id": "node/1304109562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109596",
+        "name": "A Cabeza Grande",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1612318,
+          42.1016636
+        ]
+      },
+      "id": "node/1304109596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109750",
+        "name": "Valilongo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3103039,
+          42.2954419
+        ]
+      },
+      "id": "node/1304109750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109852",
+        "name": "As Queimadas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7256697,
+          42.2642112
+        ]
+      },
+      "id": "node/1304109852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304109970",
+        "name": "Alto das Petadiñas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1749844,
+          42.2413787
+        ]
+      },
+      "id": "node/1304109970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304110164",
+        "name": "O Cabezo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1314925,
+          42.3225775
+        ]
+      },
+      "id": "node/1304110164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304110660",
+        "name": "San Paio",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8284671,
+          42.1715985
+        ]
+      },
+      "id": "node/1304110660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304110691",
+        "name": "O Franxón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0450702,
+          42.3300378
+        ]
+      },
+      "id": "node/1304110691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111201",
+        "name": "Montemeao",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1754617,
+          42.367225
+        ]
+      },
+      "id": "node/1304111201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111227",
+        "name": "As Picoñas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.161257,
+          42.2961074
+        ]
+      },
+      "id": "node/1304111227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111283",
+        "name": "Alto de Peneirexa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1428704,
+          42.2552172
+        ]
+      },
+      "id": "node/1304111283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111374",
+        "name": "Cabeza da Lebre",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4384372,
+          42.2719713
+        ]
+      },
+      "id": "node/1304111374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111470",
+        "name": "Alto da Muxarega",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9423404,
+          42.2841887
+        ]
+      },
+      "id": "node/1304111470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111567",
+        "name": "Altos do Acevral",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3913382,
+          42.208125
+        ]
+      },
+      "id": "node/1304111567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111581",
+        "name": "Alto da Venta",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0682799,
+          42.5059647
+        ]
+      },
+      "id": "node/1304111581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111650",
+        "name": "O Pendón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1736056,
+          42.3571
+        ]
+      },
+      "id": "node/1304111650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111699",
+        "name": "Alto de Meréns",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1595225,
+          42.2366551
+        ]
+      },
+      "id": "node/1304111699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111726",
+        "name": "Alto de Cerdeiriñas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0558962,
+          42.2832746
+        ]
+      },
+      "id": "node/1304111726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111766",
+        "ele": "1557",
+        "name": "Penedo das Mozas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5048988,
+          42.2060056
+        ]
+      },
+      "id": "node/1304111766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111880",
+        "name": "O Pendón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1488842,
+          42.3183152
+        ]
+      },
+      "id": "node/1304111880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111965",
+        "name": "O Castelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1114557,
+          42.2172139
+        ]
+      },
+      "id": "node/1304111965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304111998",
+        "name": "Alto dos Palleiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3278262,
+          42.0576783
+        ]
+      },
+      "id": "node/1304111998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112152",
+        "name": "O Alto",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1017879,
+          42.2622154
+        ]
+      },
+      "id": "node/1304112152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112212",
+        "name": "As Azoreiras",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116956664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9607992,
+          42.3142643
+        ]
+      },
+      "id": "node/1304112212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112457",
+        "name": "A Pena Tallada",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2784156,
+          42.047176
+        ]
+      },
+      "id": "node/1304112457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112684",
+        "name": "Coto da Pía",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2591278,
+          42.3056423
+        ]
+      },
+      "id": "node/1304112684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112731",
+        "name": "As Pereiras",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5057081,
+          42.2315927
+        ]
+      },
+      "id": "node/1304112731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112840",
+        "name": "Alto do Navallino",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3905197,
+          42.0449304
+        ]
+      },
+      "id": "node/1304112840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112903",
+        "name": "Pena de Edra",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0694239,
+          42.3963321
+        ]
+      },
+      "id": "node/1304112903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304112920",
+        "name": "O Cabezo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0587837,
+          42.2914459
+        ]
+      },
+      "id": "node/1304112920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113084",
+        "name": "A Pena da Lebre",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1031008,
+          42.4930875
+        ]
+      },
+      "id": "node/1304113084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113228",
+        "name": "Gandarela",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7968437,
+          42.242438
+        ]
+      },
+      "id": "node/1304113228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113273",
+        "name": "Rebordelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0910987,
+          42.3204083
+        ]
+      },
+      "id": "node/1304113273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113716",
+        "ele": "674",
+        "name": "Pena Corneira",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1857488,
+          42.3684362
+        ]
+      },
+      "id": "node/1304113716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113776",
+        "name": "Coto da Forc",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1972183,
+          42.2699494
+        ]
+      },
+      "id": "node/1304113776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113813",
+        "name": "Cabeciña",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1754811,
+          42.2949281
+        ]
+      },
+      "id": "node/1304113813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113914",
+        "name": "Laioso",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2157187,
+          42.2539166
+        ]
+      },
+      "id": "node/1304113914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304113959",
+        "name": "Penois",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9148456,
+          42.2746411
+        ]
+      },
+      "id": "node/1304113959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114073",
+        "name": "Penedo do Simeón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4249743,
+          42.1858425
+        ]
+      },
+      "id": "node/1304114073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114337",
+        "alt_name": "Cabeza do Pau",
+        "ele": "1219",
+        "name": "A Cabeza de Pau",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0666276,
+          42.3651254
+        ]
+      },
+      "id": "node/1304114337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114405",
+        "name": "Coto Concheiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9731516,
+          42.2879313
+        ]
+      },
+      "id": "node/1304114405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114540",
+        "name": "A Portela dos Muiños",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2529234,
+          42.2512743
+        ]
+      },
+      "id": "node/1304114540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114685",
+        "name": "Alto da Cabeza",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1482415,
+          42.4186072
+        ]
+      },
+      "id": "node/1304114685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114860",
+        "name": "Alto da Pantasma",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2804235,
+          42.0645701
+        ]
+      },
+      "id": "node/1304114860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304114985",
+        "name": "Penas da Sombra",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0147655,
+          42.4466578
+        ]
+      },
+      "id": "node/1304114985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304115077",
+        "name": "Alto dos Fraguizos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9977474,
+          42.2981832
+        ]
+      },
+      "id": "node/1304115077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304115231",
+        "name": "Alto dos Canteiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3668561,
+          42.0111648
+        ]
+      },
+      "id": "node/1304115231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304115323",
+        "name": "Alto da Coutada",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3433277,
+          42.0252645
+        ]
+      },
+      "id": "node/1304115323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304115490",
+        "name": "Pena do Corvo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8347924,
+          42.4148874
+        ]
+      },
+      "id": "node/1304115490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304115598",
+        "name": "Teixugueiras",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3654865,
+          42.310473
+        ]
+      },
+      "id": "node/1304115598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304115873",
+        "name": "Alto das Cruces",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4155157,
+          42.0625704
+        ]
+      },
+      "id": "node/1304115873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304116926",
+        "ele": "999",
+        "name": "Pena Bico",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9295014,
+          42.5698672
+        ]
+      },
+      "id": "node/1304116926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117130",
+        "name": "Pico do Couto",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0230353,
+          42.3128798
+        ]
+      },
+      "id": "node/1304117130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117486",
+        "name": "Alto dos Palleiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3586232,
+          42.0556462
+        ]
+      },
+      "id": "node/1304117486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117707",
+        "name": "Coto de Molín",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1657986,
+          42.4531876
+        ]
+      },
+      "id": "node/1304117707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117754",
+        "name": "Alto da Rasa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2211591,
+          42.328654
+        ]
+      },
+      "id": "node/1304117754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117793",
+        "name": "Alto da Escrita",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1838539,
+          42.3049876
+        ]
+      },
+      "id": "node/1304117793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117894",
+        "name": "Monte do Penedo Negro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5092496,
+          42.217049
+        ]
+      },
+      "id": "node/1304117894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304117980",
+        "name": "Monzón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2657107,
+          42.2769823
+        ]
+      },
+      "id": "node/1304117980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304118021",
+        "name": "Os Frieiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9220976,
+          42.2528529
+        ]
+      },
+      "id": "node/1304118021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304118423",
+        "name": "Alto do Monzón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0450216,
+          42.3777179
+        ]
+      },
+      "id": "node/1304118423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304118663",
+        "name": "Campo de San Xoán",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1201866,
+          42.2562157
+        ]
+      },
+      "id": "node/1304118663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304118689",
+        "name": "O Penado da Porfía",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3334211,
+          42.3025365
+        ]
+      },
+      "id": "node/1304118689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304118745",
+        "ele": "931",
+        "name": "Alto da Chavea",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1316282,
+          42.1900851
+        ]
+      },
+      "id": "node/1304118745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304119583",
+        "name": "Alto da Corga da Pantasma",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2799251,
+          42.0687054
+        ]
+      },
+      "id": "node/1304119583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304119834",
+        "name": "O Pico",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0250628,
+          42.3541501
+        ]
+      },
+      "id": "node/1304119834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304119951",
+        "name": "O Lombo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9788947,
+          42.2572545
+        ]
+      },
+      "id": "node/1304119951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304120460",
+        "name": "Elais",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.39583,
+          42.2670604
+        ]
+      },
+      "id": "node/1304120460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304120620",
+        "name": "A Chaira da Cruz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9661526,
+          42.462024
+        ]
+      },
+      "id": "node/1304120620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304120674",
+        "name": "Alto da Cidadella",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3838941,
+          42.0365155
+        ]
+      },
+      "id": "node/1304120674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304120780",
+        "name": "Alto da Portela de Éntoma",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.938279,
+          42.4363644
+        ]
+      },
+      "id": "node/1304120780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304120852",
+        "name": "Montevelle",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9542934,
+          42.2224392
+        ]
+      },
+      "id": "node/1304120852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304120881",
+        "name": "Coto de Áspera",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8514268,
+          42.2916041
+        ]
+      },
+      "id": "node/1304120881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304121079",
+        "name": "Pico do Marco",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2126793,
+          42.2235643
+        ]
+      },
+      "id": "node/1304121079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304121207",
+        "name": "A Torrizola",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9275422,
+          42.4367831
+        ]
+      },
+      "id": "node/1304121207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304121528",
+        "name": "A Cruz do Covo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4476891,
+          42.242323
+        ]
+      },
+      "id": "node/1304121528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304122260",
+        "name": "O Lombo das Chouzas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3373954,
+          42.2842851
+        ]
+      },
+      "id": "node/1304122260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304122347",
+        "name": "O Carboeiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8914656,
+          42.2590209
+        ]
+      },
+      "id": "node/1304122347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304122603",
+        "name": "O Alto do Castelo de Cerveira",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3088136,
+          42.1978957
+        ]
+      },
+      "id": "node/1304122603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304122779",
+        "name": "O Alto da Escrita",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9441075,
+          42.2384172
+        ]
+      },
+      "id": "node/1304122779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304123161",
+        "name": "Cotarón das Corgas dos Salgueiros",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3747757,
+          42.1860338
+        ]
+      },
+      "id": "node/1304123161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304123247",
+        "name": "A Cabreira",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7680635,
+          42.2745003
+        ]
+      },
+      "id": "node/1304123247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304123388",
+        "ele": "1457",
+        "name": "Alto das Cabritas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.459877,
+          42.1946831
+        ]
+      },
+      "id": "node/1304123388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304123461",
+        "name": "Alto das Penelas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1631889,
+          42.2189007
+        ]
+      },
+      "id": "node/1304123461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304123694",
+        "name": "Alto dos Cavallais",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0482479,
+          42.4495656
+        ]
+      },
+      "id": "node/1304123694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304124380",
+        "name": "Alto de Mourixoso",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3556519,
+          42.0044932
+        ]
+      },
+      "id": "node/1304124380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304124790",
+        "name": "A Forca",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7458441,
+          42.2030748
+        ]
+      },
+      "id": "node/1304124790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304124838",
+        "name": "Alto de Cortiñas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.062568,
+          42.298586
+        ]
+      },
+      "id": "node/1304124838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304125053",
+        "name": "Alto das Pedrosas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4344622,
+          42.0558686
+        ]
+      },
+      "id": "node/1304125053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304125420",
+        "name": "O Alto da Pena",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0314711,
+          42.3647339
+        ]
+      },
+      "id": "node/1304125420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304125436",
+        "name": "Castro dos Bois",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1219888,
+          42.2634626
+        ]
+      },
+      "id": "node/1304125436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304125578",
+        "name": "Pena Vixia",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4295012,
+          42.2997679
+        ]
+      },
+      "id": "node/1304125578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304125875",
+        "name": "O Xistral",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4101111,
+          42.2150153
+        ]
+      },
+      "id": "node/1304125875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304126388",
+        "name": "Alto de Sande",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1055581,
+          42.2407493
+        ]
+      },
+      "id": "node/1304126388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304126512",
+        "name": "Os Picotos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0037359,
+          42.2521672
+        ]
+      },
+      "id": "node/1304126512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304126701",
+        "name": "O Retorno",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4865178,
+          42.2435444
+        ]
+      },
+      "id": "node/1304126701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304127223",
+        "name": "Pena Lousa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1849469,
+          42.4342684
+        ]
+      },
+      "id": "node/1304127223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304127439",
+        "name": "Castelo de Requián",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1410006,
+          42.3097759
+        ]
+      },
+      "id": "node/1304127439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304127649",
+        "name": "O Xeixo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0448819,
+          42.1865499
+        ]
+      },
+      "id": "node/1304127649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304128048",
+        "name": "O Outeiro Maior",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3203215,
+          42.3259093
+        ]
+      },
+      "id": "node/1304128048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304128108",
+        "name": "O Lombo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9748594,
+          42.3162517
+        ]
+      },
+      "id": "node/1304128108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304128334",
+        "name": "Curro de Mormentelos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2435553,
+          42.2035525
+        ]
+      },
+      "id": "node/1304128334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304128362",
+        "name": "A Lombeira dos Cogordos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9614299,
+          42.196129
+        ]
+      },
+      "id": "node/1304128362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304128634",
+        "name": "A Pedrosa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7921946,
+          41.9420172
+        ]
+      },
+      "id": "node/1304128634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304128866",
+        "ele": "1466",
+        "name": "O Penedo dos Lobos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2716082,
+          42.270632
+        ]
+      },
+      "id": "node/1304128866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304129039",
+        "name": "Penedo Negro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5077681,
+          42.2038178
+        ]
+      },
+      "id": "node/1304129039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304129117",
+        "name": "Pedra do Lombo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116924173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0355072,
+          42.2045907
+        ]
+      },
+      "id": "node/1304129117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304129634",
+        "ele": "1526",
+        "name": "Alto de Bidueiras",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4792287,
+          42.1937614
+        ]
+      },
+      "id": "node/1304129634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304129661",
+        "name": "Alto do Fial",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8671587,
+          42.225205
+        ]
+      },
+      "id": "node/1304129661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130038",
+        "name": "Monte Costoira",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6890055,
+          42.2465961
+        ]
+      },
+      "id": "node/1304130038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130058",
+        "name": "O Castelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0427888,
+          42.3154639
+        ]
+      },
+      "id": "node/1304130058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130261",
+        "name": "Alto da Pipa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4887803,
+          42.0707999
+        ]
+      },
+      "id": "node/1304130261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130437",
+        "name": "Cabeza do Pote",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1559296,
+          42.3918402
+        ]
+      },
+      "id": "node/1304130437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130473",
+        "name": "Coto da Feixa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1853372,
+          42.271649
+        ]
+      },
+      "id": "node/1304130473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130505",
+        "name": "Alto do Toxedo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1841874,
+          42.2723565
+        ]
+      },
+      "id": "node/1304130505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130626",
+        "name": "Alto da Armada",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.499941,
+          42.2612104
+        ]
+      },
+      "id": "node/1304130626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130720",
+        "name": "Alto de Galván",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1139619,
+          42.2034311
+        ]
+      },
+      "id": "node/1304130720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304130816",
+        "name": "Altos da Pa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4023199,
+          42.2222739
+        ]
+      },
+      "id": "node/1304130816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304131288",
+        "name": "Monte Rabiño",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1755241,
+          42.2141825
+        ]
+      },
+      "id": "node/1304131288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304131362",
+        "name": "Coto Novelle",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1108688,
+          42.2639004
+        ]
+      },
+      "id": "node/1304131362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304131454",
+        "name": "Corgo da Tella",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4979139,
+          42.2165445
+        ]
+      },
+      "id": "node/1304131454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304131960",
+        "name": "Follacais",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9947229,
+          42.3979668
+        ]
+      },
+      "id": "node/1304131960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304131996",
+        "name": "Alto de Retorel",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0230123,
+          42.297297
+        ]
+      },
+      "id": "node/1304131996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304132233",
+        "name": "Alto de Rañalobos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.151554,
+          42.2410305
+        ]
+      },
+      "id": "node/1304132233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304132806",
+        "name": "O Penedo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9804217,
+          42.3032016
+        ]
+      },
+      "id": "node/1304132806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304132937",
+        "name": "Altos das Malladas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3221445,
+          42.2116451
+        ]
+      },
+      "id": "node/1304132937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133030",
+        "ele": "947",
+        "name": "O Serro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1551338,
+          42.1688692
+        ]
+      },
+      "id": "node/1304133030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133192",
+        "name": "Alto da Pena da Meda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3106433,
+          42.2710066
+        ]
+      },
+      "id": "node/1304133192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133269",
+        "name": "O Penouco",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8627098,
+          42.3138733
+        ]
+      },
+      "id": "node/1304133269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133332",
+        "name": "Alto do Foxo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3565838,
+          42.049907
+        ]
+      },
+      "id": "node/1304133332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133417",
+        "name": "O Teso do Vitrón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9294673,
+          42.4886716
+        ]
+      },
+      "id": "node/1304133417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133433",
+        "name": "Alto do Outeiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1349194,
+          42.3049391
+        ]
+      },
+      "id": "node/1304133433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133609",
+        "name": "A Peneda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.038145,
+          42.3192574
+        ]
+      },
+      "id": "node/1304133609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133687",
+        "name": "Pena Eirada",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5227944,
+          41.8624021
+        ]
+      },
+      "id": "node/1304133687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133712",
+        "name": "O Outeiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9772116,
+          42.4976264
+        ]
+      },
+      "id": "node/1304133712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133724",
+        "name": "Coto do Castro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1271522,
+          42.2946643
+        ]
+      },
+      "id": "node/1304133724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133744",
+        "name": "Testoiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1531705,
+          42.3061574
+        ]
+      },
+      "id": "node/1304133744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133804",
+        "name": "Penedo da Escrita",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2609829,
+          42.2848539
+        ]
+      },
+      "id": "node/1304133804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133839",
+        "name": "O Lombeiro Alto",
+        "natural": "peak",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9329987,
+          42.2549772
+        ]
+      },
+      "id": "node/1304133839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133913",
+        "name": "A Costoira",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9422276,
+          42.2969807
+        ]
+      },
+      "id": "node/1304133913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133923",
+        "name": "Coto de Prado",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0561377,
+          42.3142036
+        ]
+      },
+      "id": "node/1304133923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304133937",
+        "name": "O Penedo da Cruz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2437554,
+          42.2806648
+        ]
+      },
+      "id": "node/1304133937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134131",
+        "name": "Alto dos Entirlos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3250911,
+          42.0375815
+        ]
+      },
+      "id": "node/1304134131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134145",
+        "name": "A Pedresa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9442292,
+          42.4744836
+        ]
+      },
+      "id": "node/1304134145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134225",
+        "name": "A Cabeza",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1142426,
+          42.2777376
+        ]
+      },
+      "id": "node/1304134225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134308",
+        "name": "Peña do Quiebro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9973462,
+          42.2733295
+        ]
+      },
+      "id": "node/1304134308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134404",
+        "ele": "1145",
+        "name": "Outeiro do Picoto",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1726402,
+          42.1510892
+        ]
+      },
+      "id": "node/1304134404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134675",
+        "name": "Alto de Valconde",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4241474,
+          42.055151
+        ]
+      },
+      "id": "node/1304134675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134686",
+        "name": "Alto do Pendón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0843322,
+          42.2943369
+        ]
+      },
+      "id": "node/1304134686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304134882",
+        "name": "Penedo dos Corvos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1284272,
+          42.4929594
+        ]
+      },
+      "id": "node/1304134882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135026",
+        "name": "O Teso dos Hortos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1008636,
+          42.3244885
+        ]
+      },
+      "id": "node/1304135026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135314",
+        "ele": "1602",
+        "name": "Penedo das Canadas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4937415,
+          42.2084396
+        ]
+      },
+      "id": "node/1304135314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135484",
+        "name": "Alto da Pica",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3818417,
+          42.0664594
+        ]
+      },
+      "id": "node/1304135484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135637",
+        "name": "A Cruz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0874975,
+          42.4057129
+        ]
+      },
+      "id": "node/1304135637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135699",
+        "name": "Coto Cousido",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2390486,
+          42.2854454
+        ]
+      },
+      "id": "node/1304135699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135726",
+        "name": "O Castelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1673748,
+          42.3093278
+        ]
+      },
+      "id": "node/1304135726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135844",
+        "name": "As Lamas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2529108,
+          42.2635852
+        ]
+      },
+      "id": "node/1304135844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304135873",
+        "name": "Penedo da Arrotea",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q116992767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9257992,
+          42.2774875
+        ]
+      },
+      "id": "node/1304135873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304136139",
+        "ele": "565",
+        "name": "Alto da Ermida",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1743754,
+          42.3388111
+        ]
+      },
+      "id": "node/1304136139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304136439",
+        "name": "O Penedo Grande",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3374892,
+          42.2996236
+        ]
+      },
+      "id": "node/1304136439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304136592",
+        "name": "Cabeza do Viveiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0327037,
+          42.4500652
+        ]
+      },
+      "id": "node/1304136592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304136848",
+        "name": "Alto de Val do Cabo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2324582,
+          42.077864
+        ]
+      },
+      "id": "node/1304136848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304136927",
+        "name": "O Castro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0892297,
+          42.3538331
+        ]
+      },
+      "id": "node/1304136927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137066",
+        "name": "Alto de Cairel",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9759547,
+          42.2555546
+        ]
+      },
+      "id": "node/1304137066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137176",
+        "name": "Alto do Foxo Vello",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2745429,
+          42.0156862
+        ]
+      },
+      "id": "node/1304137176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137238",
+        "name": "Pico de Pañán",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9917363,
+          42.3464474
+        ]
+      },
+      "id": "node/1304137238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137307",
+        "name": "Cumes do Outeiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3867043,
+          42.2877993
+        ]
+      },
+      "id": "node/1304137307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137399",
+        "name": "Alto das Travesas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4278808,
+          42.0189069
+        ]
+      },
+      "id": "node/1304137399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137463",
+        "name": "Alto de Poleares",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8620488,
+          42.4560947
+        ]
+      },
+      "id": "node/1304137463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137484",
+        "name": "O Castelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0339374,
+          42.2642631
+        ]
+      },
+      "id": "node/1304137484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137583",
+        "name": "Sete Buratos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9837189,
+          42.2666538
+        ]
+      },
+      "id": "node/1304137583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137693",
+        "name": "Coto da Peiza",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0619973,
+          42.4985584
+        ]
+      },
+      "id": "node/1304137693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137740",
+        "name": "O Lombeiro do Crego",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9019897,
+          42.2553325
+        ]
+      },
+      "id": "node/1304137740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304137809",
+        "name": "Alto de San Xiraldo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4931538,
+          42.2152716
+        ]
+      },
+      "id": "node/1304137809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138035",
+        "name": "Coto do Lobo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2007053,
+          42.2828435
+        ]
+      },
+      "id": "node/1304138035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138115",
+        "name": "A Cabeza dos Bois",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3285366,
+          42.2597051
+        ]
+      },
+      "id": "node/1304138115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138133",
+        "name": "Penedo da Rodela",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2587443,
+          42.2749764
+        ]
+      },
+      "id": "node/1304138133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138158",
+        "name": "O Castelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9214374,
+          42.2663045
+        ]
+      },
+      "id": "node/1304138158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138204",
+        "name": "Cruz da Pena da Lebre",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2582269,
+          42.1880156
+        ]
+      },
+      "id": "node/1304138204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138274",
+        "name": "Alto de Campelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1024037,
+          42.3655253
+        ]
+      },
+      "id": "node/1304138274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138321",
+        "name": "Alto do Bidual",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3613317,
+          42.2021732
+        ]
+      },
+      "id": "node/1304138321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138377",
+        "ele": "1326",
+        "name": "Alto dos Cregos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4574321,
+          42.2030799
+        ]
+      },
+      "id": "node/1304138377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138394",
+        "name": "Alto dos Lombos",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1207769,
+          42.2366758
+        ]
+      },
+      "id": "node/1304138394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304138563",
+        "name": "Coto da Cruz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1582174,
+          42.3666658
+        ]
+      },
+      "id": "node/1304138563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304139188",
+        "name": "O Casquete",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0596841,
+          42.3020568
+        ]
+      },
+      "id": "node/1304139188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304151960",
+        "name": "Monte Castrelo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8625835,
+          42.2214871
+        ]
+      },
+      "id": "node/1304151960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304151964",
+        "name": "O Pendón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8706519,
+          42.4243664
+        ]
+      },
+      "id": "node/1304151964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304151975",
+        "name": "Coto da Anguarda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.976609,
+          42.284236
+        ]
+      },
+      "id": "node/1304151975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304151979",
+        "name": "Monte Virgo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0862962,
+          42.1825563
+        ]
+      },
+      "id": "node/1304151979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304151981",
+        "name": "O Pousadoiro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0954556,
+          42.3366368
+        ]
+      },
+      "id": "node/1304151981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1304152079",
+        "name": "Pena da Lebre",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3785928,
+          42.3292834
+        ]
+      },
+      "id": "node/1304152079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3773633167",
+        "alt_name": "Fraga de Brazalite",
+        "description": "Proeminência: 95m",
+        "ele": "1433",
+        "name": "Coto das Gralleiras",
+        "natural": "peak",
+        "wikidata": "Q31798570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9807429,
+          41.8724176
+        ]
+      },
+      "id": "node/3773633167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3773633170",
+        "ele": "1419",
+        "name": "Roca Sendeia",
+        "natural": "peak",
+        "source": "Instituto Geográfico de Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9903152,
+          41.860165
+        ]
+      },
+      "id": "node/3773633170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4102088409",
+        "ele": "1106",
+        "name": "O Coto de Santa Eufemia",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1431965,
+          41.8587682
+        ]
+      },
+      "id": "node/4102088409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4785305846",
+        "name": "Penedo do Laço",
+        "name:en": "Boulder de Laço",
+        "name:es": "Bloque de Laço",
+        "name:fr": "Bloc de Laço",
+        "natural": "peak",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9959605,
+          41.8531143
+        ]
+      },
+      "id": "node/4785305846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4829062337",
+        "name": "San Francisco",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8600024,
+          42.3355082
+        ]
+      },
+      "id": "node/4829062337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4841972705",
+        "name": "Monte dos Pendós",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7935992,
+          42.2452572
+        ]
+      },
+      "id": "node/4841972705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4898991736",
+        "ele": "945",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3663176,
+          41.9984114
+        ]
+      },
+      "id": "node/4898991736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5148027672",
+        "ele": "1460",
+        "name": "Laje do Sino",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0741388,
+          41.8135543
+        ]
+      },
+      "id": "node/5148027672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173398746",
+        "alt_name": "Outeiro do Quinxo",
+        "ele": "1166",
+        "name": "Monte do Quinxo",
+        "natural": "peak",
+        "wikidata": "Q23992829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1793642,
+          41.9377539
+        ]
+      },
+      "id": "node/5173398746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5331317487",
+        "ele": "1291",
+        "name": "Pena Nofre",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3510938,
+          42.0383004
+        ]
+      },
+      "id": "node/5331317487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5569226084",
+        "name": "Mairos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3332171,
+          41.8485981
+        ]
+      },
+      "id": "node/5569226084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584341898",
+        "description": "Altitude: 1381 mt; Proeminência: 70 mt; Dominância: 5.07 %",
+        "ele": "1381.48",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.858385,
+          41.8626722
+        ]
+      },
+      "id": "node/5584341898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584341940",
+        "description": "Altitude: 1147 mt; Proeminência: 161 mt; Dominância: 14.04 %",
+        "ele": "1146.65",
+        "name": "Monte da Igrejinha",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1189524,
+          41.9865929
+        ]
+      },
+      "id": "node/5584341940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6572755383",
+        "ele": "582",
+        "name": "Alto de Xirimil",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.94774,
+          42.428811
+        ]
+      },
+      "id": "node/6572755383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6789253528",
+        "ele": "1168",
+        "name": "O Picoto",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1727931,
+          42.1472021
+        ]
+      },
+      "id": "node/6789253528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6893535242",
+        "ele": "1522",
+        "name": "Alto da Nevosa",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0410674,
+          41.8319022
+        ]
+      },
+      "id": "node/6893535242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6916483380",
+        "ele": "443.4",
+        "name": "Pena Cobertoira",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1060118,
+          42.4163233
+        ]
+      },
+      "id": "node/6916483380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6923112640",
+        "name": "O Pé de Home",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6347339,
+          42.402034
+        ]
+      },
+      "id": "node/6923112640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290828",
+        "ele": "932",
+        "name": "Aquela",
+        "natural": "peak",
+        "source": "MTN25",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2666185,
+          42.5207782
+        ]
+      },
+      "id": "node/7030290828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290926",
+        "ele": "883",
+        "name": "O Laxón",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9503077,
+          42.5654987
+        ]
+      },
+      "id": "node/7030290926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290929",
+        "ele": "935",
+        "name": "Penedo dos Cans",
+        "natural": "peak",
+        "note": "Altitude interpolada por curvas de nivel",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9439255,
+          42.57012
+        ]
+      },
+      "id": "node/7030290929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290930",
+        "ele": "946",
+        "name": "Pena da Cabana",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9402588,
+          42.5713063
+        ]
+      },
+      "id": "node/7030290930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290932",
+        "ele": "955",
+        "name": "O Coto",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9365001,
+          42.5741308
+        ]
+      },
+      "id": "node/7030290932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290934",
+        "ele": "955",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9317364,
+          42.5719108
+        ]
+      },
+      "id": "node/7030290934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7030290935",
+        "ele": "996",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9276554,
+          42.5712781
+        ]
+      },
+      "id": "node/7030290935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7057272685",
+        "ele": "871",
+        "name": "Pena Nugalla",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9532533,
+          42.5689788
+        ]
+      },
+      "id": "node/7057272685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7057272700",
+        "ele": "939",
+        "name": "Penedo Domanio",
+        "natural": "peak",
+        "source": "MTN25; Catastro",
+        "source:date": "201912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9464722,
+          42.5716679
+        ]
+      },
+      "id": "node/7057272700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7906528716",
+        "ele": "1931",
+        "name": "O Pico Maluro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8328325,
+          42.2770023
+        ]
+      },
+      "id": "node/7906528716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104589",
+        "ele": "984",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2155526,
+          42.5158995
+        ]
+      },
+      "id": "node/8307104589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104590",
+        "ele": "986",
+        "name": "Pena Pixín",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2160676,
+          42.517315
+        ]
+      },
+      "id": "node/8307104590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104591",
+        "ele": "969",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2162231,
+          42.5191694
+        ]
+      },
+      "id": "node/8307104591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104592",
+        "ele": "975",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2161105,
+          42.5207351
+        ]
+      },
+      "id": "node/8307104592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104593",
+        "ele": "965",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2157591,
+          42.5217977
+        ]
+      },
+      "id": "node/8307104593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104594",
+        "ele": "983",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2150295,
+          42.525005
+        ]
+      },
+      "id": "node/8307104594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104595",
+        "ele": "956",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2155606,
+          42.5305733
+        ]
+      },
+      "id": "node/8307104595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104596",
+        "ele": "975",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2152736,
+          42.5330736
+        ]
+      },
+      "id": "node/8307104596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307104597",
+        "ele": "948",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2134216,
+          42.5369088
+        ]
+      },
+      "id": "node/8307104597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307113349",
+        "ele": "1003",
+        "name": "Uceiro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2045984,
+          42.5438939
+        ]
+      },
+      "id": "node/8307113349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8307113350",
+        "ele": "1001",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2092923,
+          42.5412003
+        ]
+      },
+      "id": "node/8307113350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9295727563",
+        "ele": "1496",
+        "name": "Pico da Ortiga",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2820129,
+          42.142776
+        ]
+      },
+      "id": "node/9295727563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9295727564",
+        "ele": "1052",
+        "name": "Alto do Covelo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1111294,
+          42.2363239
+        ]
+      },
+      "id": "node/9295727564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9295727565",
+        "ele": "1566",
+        "name": "Alto das Chás",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7941502,
+          42.3135562
+        ]
+      },
+      "id": "node/9295727565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743403404",
+        "ele": "1091",
+        "name": "Porto da Barxa",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4356091,
+          42.1081169
+        ]
+      },
+      "id": "node/9743403404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743409123",
+        "ele": "1075",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4277824,
+          42.0990941
+        ]
+      },
+      "id": "node/9743409123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743409124",
+        "ele": "1027",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4292617,
+          42.0932701
+        ]
+      },
+      "id": "node/9743409124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743453313",
+        "ele": "1585",
+        "name": "O Penedo dos Afeitados",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.505309,
+          42.2110572
+        ]
+      },
+      "id": "node/9743453313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465254",
+        "ele": "1359",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4305236,
+          42.1359611
+        ]
+      },
+      "id": "node/9743465254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465255",
+        "ele": "1352",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.453301,
+          42.1458258
+        ]
+      },
+      "id": "node/9743465255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465256",
+        "ele": "1356",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4562621,
+          42.1429461
+        ]
+      },
+      "id": "node/9743465256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465257",
+        "ele": "1355",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.457099,
+          42.1445849
+        ]
+      },
+      "id": "node/9743465257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465258",
+        "ele": "1357",
+        "name": "O Louredo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.45222,
+          42.1390664
+        ]
+      },
+      "id": "node/9743465258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465259",
+        "ele": "1333",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4438167,
+          42.1419119
+        ]
+      },
+      "id": "node/9743465259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743465260",
+        "ele": "1344",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.441864,
+          42.1358935
+        ]
+      },
+      "id": "node/9743465260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743466345",
+        "ele": "1102",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4794579,
+          42.1382365
+        ]
+      },
+      "id": "node/9743466345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743466346",
+        "ele": "1246",
+        "name": "Cabeza Redonda",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4824834,
+          42.1543368
+        ]
+      },
+      "id": "node/9743466346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743466347",
+        "ele": "1264",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4776125,
+          42.1637852
+        ]
+      },
+      "id": "node/9743466347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743466348",
+        "ele": "1384",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4610687,
+          42.1637693
+        ]
+      },
+      "id": "node/9743466348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743466349",
+        "ele": "1365",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4556077,
+          42.15242
+        ]
+      },
+      "id": "node/9743466349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743476486",
+        "ele": "1616",
+        "name": "San Mamede",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4995717,
+          42.211228
+        ]
+      },
+      "id": "node/9743476486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761202758",
+        "ele": "1216",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4458766,
+          42.1595384
+        ]
+      },
+      "id": "node/9761202758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761250273",
+        "ele": "1258",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4563372,
+          42.1687036
+        ]
+      },
+      "id": "node/9761250273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761251665",
+        "ele": "1407",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4513966,
+          42.1554106
+        ]
+      },
+      "id": "node/9761251665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761266488",
+        "ele": "1509",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5097883,
+          42.2021524
+        ]
+      },
+      "id": "node/9761266488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761266489",
+        "ele": "1558",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5051105,
+          42.2079381
+        ]
+      },
+      "id": "node/9761266489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761266490",
+        "ele": "1553",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5076211,
+          42.2067619
+        ]
+      },
+      "id": "node/9761266490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761266491",
+        "ele": "1557",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5064623,
+          42.2067937
+        ]
+      },
+      "id": "node/9761266491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761266492",
+        "ele": "1551",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5044775,
+          42.2069765
+        ]
+      },
+      "id": "node/9761266492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761266493",
+        "ele": "1558",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5052178,
+          42.204481
+        ]
+      },
+      "id": "node/9761266493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761268094",
+        "ele": "1368",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5163329,
+          42.1986871
+        ]
+      },
+      "id": "node/9761268094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761270851",
+        "ele": "895",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5292397,
+          42.1648667
+        ]
+      },
+      "id": "node/9761270851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761270852",
+        "ele": "889",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5238538,
+          42.1655188
+        ]
+      },
+      "id": "node/9761270852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761270853",
+        "ele": "927",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5381017,
+          42.1714827
+        ]
+      },
+      "id": "node/9761270853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761270854",
+        "ele": "933",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5336385,
+          42.1787977
+        ]
+      },
+      "id": "node/9761270854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761270855",
+        "ele": "949",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5236607,
+          42.1739954
+        ]
+      },
+      "id": "node/9761270855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761270856",
+        "ele": "1033",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5289178,
+          42.1837269
+        ]
+      },
+      "id": "node/9761270856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761341627",
+        "ele": "1565",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4990863,
+          42.2065354
+        ]
+      },
+      "id": "node/9761341627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761341628",
+        "ele": "1576",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4982065,
+          42.207795
+        ]
+      },
+      "id": "node/9761341628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761348355",
+        "ele": "806",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5198627,
+          42.1436621
+        ]
+      },
+      "id": "node/9761348355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761348356",
+        "ele": "838",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5202704,
+          42.1529131
+        ]
+      },
+      "id": "node/9761348356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366691",
+        "ele": "1157",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6289621,
+          42.3496011
+        ]
+      },
+      "id": "node/9970366691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366692",
+        "ele": "1131",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6300382,
+          42.3525716
+        ]
+      },
+      "id": "node/9970366692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366693",
+        "ele": "1153",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6315173,
+          42.3543169
+        ]
+      },
+      "id": "node/9970366693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366695",
+        "ele": "1285",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6083424,
+          42.3538077
+        ]
+      },
+      "id": "node/9970366695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366697",
+        "ele": "1271",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6111753,
+          42.3565602
+        ]
+      },
+      "id": "node/9970366697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366698",
+        "ele": "1267",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6125538,
+          42.3562745
+        ]
+      },
+      "id": "node/9970366698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366700",
+        "ele": "1064",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5962341,
+          42.3596442
+        ]
+      },
+      "id": "node/9970366700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366701",
+        "ele": "883",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6305631,
+          42.3312265
+        ]
+      },
+      "id": "node/9970366701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9970366702",
+        "ele": "1314",
+        "name": "O Alto da Cabeza de Meda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.610438,
+          42.3498829
+        ]
+      },
+      "id": "node/9970366702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10048317053",
+        "ele": "682",
+        "name": "Penouzos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6848964,
+          42.2112782
+        ]
+      },
+      "id": "node/10048317053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10058753450",
+        "ele": "833",
+        "name": "A Farria",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7056927,
+          42.1993853
+        ]
+      },
+      "id": "node/10058753450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10067424240",
+        "ele": "693",
+        "name": "O Cruceiro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6835514,
+          42.2076766
+        ]
+      },
+      "id": "node/10067424240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10721764536",
+        "ele": "1706",
+        "name": "Portela de Cancibreiro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7368508,
+          42.3505837
+        ]
+      },
+      "id": "node/10721764536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879432093",
+        "ele": "654",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2009721,
+          42.3582585
+        ]
+      },
+      "id": "node/10879432093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879432094",
+        "ele": "669",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2041264,
+          42.3589324
+        ]
+      },
+      "id": "node/10879432094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879432095",
+        "ele": "679",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1948459,
+          42.3648226
+        ]
+      },
+      "id": "node/10879432095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879432096",
+        "ele": "636",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1915307,
+          42.3666855
+        ]
+      },
+      "id": "node/10879432096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879432097",
+        "ele": "642",
+        "name": "Coto da Torre",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.180598,
+          42.3704586
+        ]
+      },
+      "id": "node/10879432097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10879432098",
+        "ele": "650",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1767196,
+          42.3722499
+        ]
+      },
+      "id": "node/10879432098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10885892037",
+        "ele": "753",
+        "name": "Castro de Berredo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.87977,
+          42.143883
+        ]
+      },
+      "id": "node/10885892037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072584",
+        "ele": "921",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5012159,
+          42.1489917
+        ]
+      },
+      "id": "node/10902072584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072585",
+        "ele": "874",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5039411,
+          42.1443144
+        ]
+      },
+      "id": "node/10902072585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072586",
+        "ele": "1361",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4656123,
+          42.1533386
+        ]
+      },
+      "id": "node/10902072586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072587",
+        "ele": "1323",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4693137,
+          42.1546749
+        ]
+      },
+      "id": "node/10902072587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072588",
+        "ele": "1355",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4377442,
+          42.1686201
+        ]
+      },
+      "id": "node/10902072588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072589",
+        "ele": "1322",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4528933,
+          42.1627513
+        ]
+      },
+      "id": "node/10902072589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072590",
+        "ele": "1322",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4498355,
+          42.1644532
+        ]
+      },
+      "id": "node/10902072590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072591",
+        "ele": "1329",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4432588,
+          42.1524041
+        ]
+      },
+      "id": "node/10902072591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072592",
+        "ele": "1351",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4206853,
+          42.1361202
+        ]
+      },
+      "id": "node/10902072592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072593",
+        "ele": "1275",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4199021,
+          42.1289435
+        ]
+      },
+      "id": "node/10902072593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072594",
+        "ele": "1345",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4339488,
+          42.1340079
+        ]
+      },
+      "id": "node/10902072594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072595",
+        "ele": "1345",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4303627,
+          42.130503
+        ]
+      },
+      "id": "node/10902072595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072596",
+        "ele": "1331",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4256635,
+          42.131243
+        ]
+      },
+      "id": "node/10902072596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072597",
+        "ele": "1347",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4300623,
+          42.132707
+        ]
+      },
+      "id": "node/10902072597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072598",
+        "ele": "1296",
+        "name": "Porto de Negreiros",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4369878,
+          42.1274118
+        ]
+      },
+      "id": "node/10902072598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072599",
+        "ele": "1222",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.432766,
+          42.1146354
+        ]
+      },
+      "id": "node/10902072599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072600",
+        "ele": "987",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4510855,
+          42.1089407
+        ]
+      },
+      "id": "node/10902072600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072601",
+        "ele": "1127",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4484086,
+          42.1170389
+        ]
+      },
+      "id": "node/10902072601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072602",
+        "ele": "852",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4681872,
+          42.1106201
+        ]
+      },
+      "id": "node/10902072602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072603",
+        "ele": "813",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4752307,
+          42.1131192
+        ]
+      },
+      "id": "node/10902072603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902072604",
+        "ele": "887",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4644697,
+          42.1185032
+        ]
+      },
+      "id": "node/10902072604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902101405",
+        "ele": "932",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4692065,
+          42.1178864
+        ]
+      },
+      "id": "node/10902101405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902101406",
+        "ele": "933",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4735543,
+          42.1216983
+        ]
+      },
+      "id": "node/10902101406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902101407",
+        "ele": "1066",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4785566,
+          42.1329457
+        ]
+      },
+      "id": "node/10902101407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902101408",
+        "ele": "867",
+        "name": "Alto da Corga do Mallo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4980938,
+          42.1353724
+        ]
+      },
+      "id": "node/10902101408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902101409",
+        "ele": "818",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5061727,
+          42.1317124
+        ]
+      },
+      "id": "node/10902101409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902101410",
+        "ele": "806",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4928984,
+          42.1209125
+        ]
+      },
+      "id": "node/10902101410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373763",
+        "ele": "716",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5013018,
+          42.1176119
+        ]
+      },
+      "id": "node/10903373763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373764",
+        "ele": "794",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.487585,
+          42.1144842
+        ]
+      },
+      "id": "node/10903373764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373765",
+        "ele": "985",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4561334,
+          42.0959615
+        ]
+      },
+      "id": "node/10903373765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373766",
+        "ele": "1018",
+        "name": "Porto do Rial",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4379104,
+          42.1009927
+        ]
+      },
+      "id": "node/10903373766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373767",
+        "ele": "992",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4366176,
+          42.0924267
+        ]
+      },
+      "id": "node/10903373767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373768",
+        "ele": "973",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3992813,
+          42.0838437
+        ]
+      },
+      "id": "node/10903373768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373769",
+        "ele": "975",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4012017,
+          42.0846638
+        ]
+      },
+      "id": "node/10903373769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373770",
+        "ele": "905",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.386357,
+          42.0840547
+        ]
+      },
+      "id": "node/10903373770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373771",
+        "ele": "1111",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3681623,
+          42.0924984
+        ]
+      },
+      "id": "node/10903373771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373772",
+        "ele": "1149",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3559046,
+          42.086535
+        ]
+      },
+      "id": "node/10903373772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373773",
+        "ele": "1252",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3547378,
+          42.0951992
+        ]
+      },
+      "id": "node/10903373773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373774",
+        "ele": "1265",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3518705,
+          42.0970203
+        ]
+      },
+      "id": "node/10903373774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373775",
+        "ele": "1311",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3492313,
+          42.1030305
+        ]
+      },
+      "id": "node/10903373775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373776",
+        "ele": "1323",
+        "name": "Cabezo do Xogral",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3495692,
+          42.1054703
+        ]
+      },
+      "id": "node/10903373776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373777",
+        "ele": "1328",
+        "name": "Cabezo do Lombo Grande",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3507494,
+          42.1080811
+        ]
+      },
+      "id": "node/10903373777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373778",
+        "ele": "1238",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3874688,
+          42.1115016
+        ]
+      },
+      "id": "node/10903373778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373779",
+        "ele": "1237",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3885417,
+          42.1160441
+        ]
+      },
+      "id": "node/10903373779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373780",
+        "ele": "1237",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3893571,
+          42.1099077
+        ]
+      },
+      "id": "node/10903373780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373781",
+        "ele": "1222",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3984444,
+          42.1223071
+        ]
+      },
+      "id": "node/10903373781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373782",
+        "ele": "1314",
+        "name": "O Seixo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3881126,
+          42.1249649
+        ]
+      },
+      "id": "node/10903373782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373783",
+        "ele": "1409",
+        "name": "Alto de cernada",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3802591,
+          42.1321739
+        ]
+      },
+      "id": "node/10903373783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373784",
+        "ele": "1374",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3939061,
+          42.1378228
+        ]
+      },
+      "id": "node/10903373784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373785",
+        "ele": "1355",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3949361,
+          42.1337811
+        ]
+      },
+      "id": "node/10903373785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373786",
+        "ele": "1442",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4139691,
+          42.1407505
+        ]
+      },
+      "id": "node/10903373786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373787",
+        "ele": "1173",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4199665,
+          42.115869
+        ]
+      },
+      "id": "node/10903373787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373788",
+        "ele": "1178",
+        "name": "Alto das ladeiras dos liñares",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4036271,
+          42.1083591
+        ]
+      },
+      "id": "node/10903373788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373789",
+        "ele": "1173",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.405622,
+          42.1093824
+        ]
+      },
+      "id": "node/10903373789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373790",
+        "ele": "1159",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3991204,
+          42.1125343
+        ]
+      },
+      "id": "node/10903373790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373791",
+        "ele": "1168",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4074888,
+          42.1050842
+        ]
+      },
+      "id": "node/10903373791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373792",
+        "ele": "1124",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4183035,
+          42.1044315
+        ]
+      },
+      "id": "node/10903373792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10903373793",
+        "ele": "1053",
+        "name": "Alto do Vieiro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4157661,
+          42.0949942
+        ]
+      },
+      "id": "node/10903373793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11088999601",
+        "ele": "927",
+        "name": "Penamá",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8118488,
+          42.1618006
+        ]
+      },
+      "id": "node/11088999601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11124049204",
+        "ele": "821",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5843949,
+          42.1634092
+        ]
+      },
+      "id": "node/11124049204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11124049383",
+        "ele": "998",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5344883,
+          42.1910949
+        ]
+      },
+      "id": "node/11124049383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11124049384",
+        "ele": "988",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5372974,
+          42.190518
+        ]
+      },
+      "id": "node/11124049384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997045",
+        "ele": "1558",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2771871,
+          42.2659799
+        ]
+      },
+      "id": "node/11200997045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997046",
+        "ele": "1474",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2997069,
+          42.2833019
+        ]
+      },
+      "id": "node/11200997046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997047",
+        "ele": "1477",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2998089,
+          42.2837662
+        ]
+      },
+      "id": "node/11200997047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997048",
+        "ele": "1514",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2936559,
+          42.2763721
+        ]
+      },
+      "id": "node/11200997048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997049",
+        "ele": "1491",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3155642,
+          42.2737127
+        ]
+      },
+      "id": "node/11200997049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997050",
+        "ele": "1519",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3221946,
+          42.2677187
+        ]
+      },
+      "id": "node/11200997050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997051",
+        "ele": "1501",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3236644,
+          42.2713786
+        ]
+      },
+      "id": "node/11200997051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997052",
+        "ele": "1599",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3295117,
+          42.2617638
+        ]
+      },
+      "id": "node/11200997052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997053",
+        "ele": "1714",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3072815,
+          42.2447536
+        ]
+      },
+      "id": "node/11200997053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997054",
+        "ele": "1659",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2932053,
+          42.2414336
+        ]
+      },
+      "id": "node/11200997054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997055",
+        "ele": "1658",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2971106,
+          42.2402104
+        ]
+      },
+      "id": "node/11200997055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997056",
+        "ele": "1693",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3037088,
+          42.2348249
+        ]
+      },
+      "id": "node/11200997056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997057",
+        "ele": "1714",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3111439,
+          42.241656
+        ]
+      },
+      "id": "node/11200997057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997058",
+        "ele": "1642",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.32036,
+          42.2456431
+        ]
+      },
+      "id": "node/11200997058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997059",
+        "ele": "1712",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3152852,
+          42.2467789
+        ]
+      },
+      "id": "node/11200997059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997060",
+        "ele": "1713",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3159826,
+          42.2481449
+        ]
+      },
+      "id": "node/11200997060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997061",
+        "ele": "1705",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.322495,
+          42.2507855
+        ]
+      },
+      "id": "node/11200997061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997062",
+        "ele": "1704",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3105216,
+          42.2607395
+        ]
+      },
+      "id": "node/11200997062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997063",
+        "ele": "1776",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3018313,
+          42.2583653
+        ]
+      },
+      "id": "node/11200997063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997064",
+        "ele": "1754",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3019815,
+          42.2554113
+        ]
+      },
+      "id": "node/11200997064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997065",
+        "ele": "1758",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3061013,
+          42.2523619
+        ]
+      },
+      "id": "node/11200997065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200997066",
+        "ele": "1592",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3333794,
+          42.2510793
+        ]
+      },
+      "id": "node/11200997066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240077413",
+        "ele": "1238",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5107319,
+          42.1934872
+        ]
+      },
+      "id": "node/11240077413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11241004529",
+        "ele": "1137",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4865657,
+          42.1637613
+        ]
+      },
+      "id": "node/11241004529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11241004530",
+        "ele": "1384",
+        "name": "Portela da Boqueira",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4639225,
+          42.1761581
+        ]
+      },
+      "id": "node/11241004530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11241004531",
+        "ele": "1462",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4715668,
+          42.1908259
+        ]
+      },
+      "id": "node/11241004531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931859",
+        "ele": "782",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7023045,
+          42.3057049
+        ]
+      },
+      "id": "node/11624931859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931860",
+        "ele": "781",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7017443,
+          42.3043272
+        ]
+      },
+      "id": "node/11624931860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931861",
+        "ele": "783",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7057229,
+          42.3042855
+        ]
+      },
+      "id": "node/11624931861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931862",
+        "ele": "786",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7099382,
+          42.3017162
+        ]
+      },
+      "id": "node/11624931862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931863",
+        "ele": "777",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7112279,
+          42.3042694
+        ]
+      },
+      "id": "node/11624931863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931864",
+        "ele": "774",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.711267,
+          42.299028
+        ]
+      },
+      "id": "node/11624931864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931865",
+        "ele": "783",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6937588,
+          42.2987004
+        ]
+      },
+      "id": "node/11624931865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11624931866",
+        "ele": "783",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6949182,
+          42.2961759
+        ]
+      },
+      "id": "node/11624931866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11987554883",
+        "name": "A Arroxa",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0663433,
+          42.0168694
+        ]
+      },
+      "id": "node/11987554883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11993630374",
+        "ele": "1527",
+        "name": "Monte do Penedo Negro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5068799,
+          42.2153675
+        ]
+      },
+      "id": "node/11993630374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12022957684",
+        "ele": "937",
+        "name": "A Madanela",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0502671,
+          42.5114403
+        ]
+      },
+      "id": "node/12022957684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12154421014",
+        "name": "Alto do Padinho",
+        "natural": "peak",
+        "website": "https://www.walkingpenedageres.pt/pt/alto-do-padinho-marco-78/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.915854,
+          41.894706
+        ]
+      },
+      "id": "node/12154421014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12154436734",
+        "name": "Alto da Pena Cereja",
+        "natural": "peak",
+        "wikidata": "Q31798110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8833067,
+          41.8833026
+        ]
+      },
+      "id": "node/12154436734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12162646077",
+        "ele": "1410",
+        "name": "Alto das Cancelas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4645771,
+          42.229045
+        ]
+      },
+      "id": "node/12162646077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12162646086",
+        "ele": "1278",
+        "name": "A Pena do Seixo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4925136,
+          42.2375536
+        ]
+      },
+      "id": "node/12162646086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12202342539",
+        "ele": "1424",
+        "name": "As Chairas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.468155,
+          42.1678985
+        ]
+      },
+      "id": "node/12202342539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12410066338",
+        "ele": "613",
+        "name": "A Medorra",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7292783,
+          42.2341414
+        ]
+      },
+      "id": "node/12410066338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12512539614",
+        "ele": "1180",
+        "name": "Arando",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6747468,
+          41.9283612
+        ]
+      },
+      "id": "node/12512539614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12554230251",
+        "ele": "952",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3502917,
+          42.403313
+        ]
+      },
+      "id": "node/12554230251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12554230252",
+        "name": "952",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.3515067,
+          42.4004771
+        ]
+      },
+      "id": "node/12554230252"
+    }
+  ]
+}

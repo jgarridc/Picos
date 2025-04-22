@@ -1,0 +1,1601 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-22T16:48:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/900836947",
+        "ele": "118",
+        "name": "Cerro Blanco",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0446194,
+          37.4126564
+        ]
+      },
+      "id": "node/900836947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/900837217",
+        "ele": "116",
+        "name": "Cerro de Santa Brígida",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0418965,
+          37.4115754
+        ]
+      },
+      "id": "node/900837217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/945667301",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2524959,
+          37.7133889
+        ]
+      },
+      "id": "node/945667301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/945667305",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3034794,
+          37.7427155
+        ]
+      },
+      "id": "node/945667305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/945667306",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3925716,
+          37.7273748
+        ]
+      },
+      "id": "node/945667306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/945667324",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4184925,
+          37.7257455
+        ]
+      },
+      "id": "node/945667324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/949513913",
+        "ele": "1128.40",
+        "name": "Terril",
+        "natural": "peak",
+        "wikidata": "Q23978837"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1731855,
+          36.9988297
+        ]
+      },
+      "id": "node/949513913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241605933",
+        "ele": "167",
+        "name": "Cerro de Barro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0740963,
+          37.4258404
+        ]
+      },
+      "id": "node/1241605933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241605968",
+        "ele": "263",
+        "name": "Cerro de las Ermitas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9194027,
+          37.6364031
+        ]
+      },
+      "id": "node/1241605968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241606104",
+        "ele": "335",
+        "name": "Cerro Gordo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9428643,
+          37.7318872
+        ]
+      },
+      "id": "node/1241606104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241609474",
+        "ele": "33",
+        "name": "Cerro de las Cabezas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0488994,
+          37.4506258
+        ]
+      },
+      "id": "node/1241609474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241612459",
+        "ele": "43",
+        "name": "Cerro del Judío",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0730725,
+          37.451228
+        ]
+      },
+      "id": "node/1241612459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241614252",
+        "ele": "299",
+        "name": "Cerro de la Picota",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.084431,
+          37.6367047
+        ]
+      },
+      "id": "node/1241614252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241616036",
+        "ele": "370",
+        "name": "Cerro del Moro",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9806272,
+          37.6291484
+        ]
+      },
+      "id": "node/1241616036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241617864",
+        "ele": "166",
+        "name": "Cerro de la Cruz",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0697864,
+          37.4251719
+        ]
+      },
+      "id": "node/1241617864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241619032",
+        "name": "Cerro Cinco",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.918795,
+          37.874338
+        ]
+      },
+      "id": "node/1241619032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241619241",
+        "ele": "398",
+        "name": "Cerro de los Naranjales",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1842033,
+          37.6573379
+        ]
+      },
+      "id": "node/1241619241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241623486",
+        "ele": "707",
+        "name": "Cerro del Rincón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.893288,
+          38.1258692
+        ]
+      },
+      "id": "node/1241623486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241623924",
+        "ele": "237",
+        "name": "Cerro Benítez",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8602763,
+          37.6705844
+        ]
+      },
+      "id": "node/1241623924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241625057",
+        "ele": "288",
+        "name": "Cerro del Caballo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9326715,
+          37.6383695
+        ]
+      },
+      "id": "node/1241625057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241626376",
+        "name": "Atalayuelas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8068095,
+          37.8926503
+        ]
+      },
+      "id": "node/1241626376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241627611",
+        "ele": "418",
+        "name": "Cerro Calamón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1433981,
+          37.758887
+        ]
+      },
+      "id": "node/1241627611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241628871",
+        "ele": "343",
+        "name": "Cerro de los Buitres",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1356877,
+          37.6494049
+        ]
+      },
+      "id": "node/1241628871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241633864",
+        "ele": "128",
+        "name": "Cerro Blanco",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0498476,
+          37.4168612
+        ]
+      },
+      "id": "node/1241633864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241635894",
+        "ele": "136",
+        "name": "Cerro del Lino",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0528756,
+          37.4203115
+        ]
+      },
+      "id": "node/1241635894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241637051",
+        "ele": "254",
+        "name": "Cerro Castillejo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0377707,
+          37.6525993
+        ]
+      },
+      "id": "node/1241637051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241637080",
+        "ele": "253",
+        "name": "El Porquerón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8858164,
+          37.6884484
+        ]
+      },
+      "id": "node/1241637080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241638218",
+        "ele": "254",
+        "name": "Cerro de Cardona",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9940574,
+          37.6259858
+        ]
+      },
+      "id": "node/1241638218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241642100",
+        "ele": "263",
+        "name": "Cerro del Buitre",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.908051,
+          37.6367586
+        ]
+      },
+      "id": "node/1241642100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241648636",
+        "ele": "239",
+        "name": "Cerro de la Meona",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8772662,
+          37.6347123
+        ]
+      },
+      "id": "node/1241648636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241651562",
+        "ele": "340",
+        "name": "Cerro Malo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0102585,
+          37.6592099
+        ]
+      },
+      "id": "node/1241651562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241653497",
+        "ele": "164",
+        "name": "Cerro de Benito",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8513275,
+          37.6818497
+        ]
+      },
+      "id": "node/1241653497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241653789",
+        "ele": "299",
+        "name": "Cerro de Canillas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1003604,
+          37.6768259
+        ]
+      },
+      "id": "node/1241653789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241653892",
+        "ele": "666.20",
+        "man_made": "survey_point",
+        "name": "Cerro de San Cristóbal",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7701524,
+          37.8565515
+        ]
+      },
+      "id": "node/1241653892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241656063",
+        "ele": "869",
+        "name": "La Solinera",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8791211,
+          38.1302649
+        ]
+      },
+      "id": "node/1241656063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241656334",
+        "ele": "272",
+        "name": "Cerro Porquerón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8636049,
+          37.6748437
+        ]
+      },
+      "id": "node/1241656334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260540535",
+        "ele": "140",
+        "name": "Cerro Amarguillo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6736548,
+          37.0830551
+        ]
+      },
+      "id": "node/1260540535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260541251",
+        "name": "Cerro Traviesa",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1284508,
+          37.8700641
+        ]
+      },
+      "id": "node/1260541251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260541450",
+        "ele": "134",
+        "name": "Cerro Copalto",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6499986,
+          37.0619944
+        ]
+      },
+      "id": "node/1260541450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260541714",
+        "name": "Loma del Rubio",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7215303,
+          37.0013401
+        ]
+      },
+      "id": "node/1260541714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260542188",
+        "name": "Lomas de Herrera",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6936866,
+          37.0456773
+        ]
+      },
+      "id": "node/1260542188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260542591",
+        "ele": "484",
+        "name": "Cerro de las Tejoneras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.09062,
+          37.8511228
+        ]
+      },
+      "id": "node/1260542591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260543262",
+        "name": "Lomo Añao",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0032613,
+          37.7762912
+        ]
+      },
+      "id": "node/1260543262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260543484",
+        "ele": "111",
+        "name": "Cerro del Murto",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7392779,
+          37.0109165
+        ]
+      },
+      "id": "node/1260543484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260544527",
+        "name": "Lomas del Algarve",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6728284,
+          37.0370787
+        ]
+      },
+      "id": "node/1260544527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260544665",
+        "name": "El Cerrillo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6990067,
+          37.0650366
+        ]
+      },
+      "id": "node/1260544665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260545067",
+        "ele": "173",
+        "name": "Cerro del Palo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6335447,
+          37.071021
+        ]
+      },
+      "id": "node/1260545067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260545624",
+        "ele": "239",
+        "name": "Cerro del Algarrobo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5340498,
+          37.0318243
+        ]
+      },
+      "id": "node/1260545624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260545813",
+        "ele": "261",
+        "name": "Cerro de Montegil",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7901994,
+          37.6980219
+        ]
+      },
+      "id": "node/1260545813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260546537",
+        "name": "Cerro del Molino",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7421069,
+          37.0386605
+        ]
+      },
+      "id": "node/1260546537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260547608",
+        "ele": "58",
+        "name": "Cerro de la Carraola",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8271238,
+          37.0456759
+        ]
+      },
+      "id": "node/1260547608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260547894",
+        "name": "Cerro Jaraba",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5590556,
+          37.0400651
+        ]
+      },
+      "id": "node/1260547894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260548185",
+        "name": "El Peñón del Caballo",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7206268,
+          37.0141302
+        ]
+      },
+      "id": "node/1260548185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260548522",
+        "ele": "164",
+        "name": "Cerro Pelado",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.623064,
+          37.0706626
+        ]
+      },
+      "id": "node/1260548522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260549331",
+        "ele": "229",
+        "name": "Cerro del Duque",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.550063,
+          37.0281339
+        ]
+      },
+      "id": "node/1260549331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260549697",
+        "ele": "146",
+        "name": "Cerro de las Mentiras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7326098,
+          37.0302377
+        ]
+      },
+      "id": "node/1260549697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260549728",
+        "ele": "552",
+        "name": "Alto del Francés",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1447907,
+          37.0519729
+        ]
+      },
+      "id": "node/1260549728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260549799",
+        "ele": "102",
+        "name": "Cerro del Mármol",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7595296,
+          37.0392568
+        ]
+      },
+      "id": "node/1260549799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260550226",
+        "ele": "706",
+        "name": "Piedra del Águila",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8079636,
+          37.2566603
+        ]
+      },
+      "id": "node/1260550226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260550346",
+        "ele": "253",
+        "name": "Cerro del Espino",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5640163,
+          37.0234393
+        ]
+      },
+      "id": "node/1260550346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260550429",
+        "name": "Lomas de Miranda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.727806,
+          37.0661471
+        ]
+      },
+      "id": "node/1260550429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260550879",
+        "ele": "103",
+        "name": "Cerro de las Carboneras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8083377,
+          37.0084188
+        ]
+      },
+      "id": "node/1260550879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260553135",
+        "ele": "592",
+        "name": "Cerro Maforte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8570599,
+          38.0433374
+        ]
+      },
+      "id": "node/1260553135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260553596",
+        "name": "Cerro Borda",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6104716,
+          37.0773707
+        ]
+      },
+      "id": "node/1260553596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260554492",
+        "name": "Cerro del Infierno",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7227436,
+          37.0262111
+        ]
+      },
+      "id": "node/1260554492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260554959",
+        "name": "Lomas del Caserón",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7085812,
+          37.0454866
+        ]
+      },
+      "id": "node/1260554959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260556800",
+        "name": "Loma del Jardinito",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7513497,
+          37.0101964
+        ]
+      },
+      "id": "node/1260556800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260596605",
+        "name": "Lomas de la Aguzadera",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "source:name": "Nomenclator Geográfico Básico de España"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6684292,
+          37.0263638
+        ]
+      },
+      "id": "node/1260596605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1260597077",
+        "ele": "114",
+        "name": "Cerro de la Nava",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7378244,
+          37.0183214
+        ]
+      },
+      "id": "node/1260597077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1677682756",
+        "name": "Loma de Mingo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8419783,
+          37.3127774
+        ]
+      },
+      "id": "node/1677682756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4156135484",
+        "ele": "87",
+        "name": "Cerro de El Carambolo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0376441,
+          37.3928192
+        ]
+      },
+      "id": "node/4156135484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349703267",
+        "name": "Reventones",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8097086,
+          37.9042346
+        ]
+      },
+      "id": "node/5349703267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7700554688",
+        "description": "Esta flanqueada por las sierras del Guichón y la Piedra del Águila alcanzando una altitud de 725 metros, toma su nombre de la familia Sánchez Pleités marqueses de los Soidos y Frómista.",
+        "ele": "729",
+        "name": "Sierra de Pleités",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8089379,
+          37.2433971
+        ]
+      },
+      "id": "node/7700554688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7700554689",
+        "ele": "751",
+        "name": "Cerro del Guinchón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8215849,
+          37.2447487
+        ]
+      },
+      "id": "node/7700554689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8273074617",
+        "ele": "811",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1787448,
+          36.9916875
+        ]
+      },
+      "id": "node/8273074617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8273123613",
+        "ele": "1121",
+        "name": "Peñón de Algámitas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1784229,
+          37.0132792
+        ]
+      },
+      "id": "node/8273123613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8273123614",
+        "ele": "924",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1795817,
+          37.0202695
+        ]
+      },
+      "id": "node/8273123614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10713018594",
+        "name": "Cerro Barrero",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.3473311,
+          37.4387564
+        ]
+      },
+      "id": "node/10713018594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10790589259",
+        "ele": "1128.4",
+        "name": "El Terril",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1732325,
+          36.9988755
+        ]
+      },
+      "id": "node/10790589259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10887395027",
+        "ele": "434",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1620332,
+          37.7564091
+        ]
+      },
+      "id": "node/10887395027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11290518402",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9949545,
+          37.1734573
+        ]
+      },
+      "id": "node/11290518402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12631253133",
+        "ele": "133",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0513843,
+          37.4185126
+        ]
+      },
+      "id": "node/12631253133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12631253134",
+        "ele": "116",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.048369,
+          37.4153823
+        ]
+      },
+      "id": "node/12631253134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12631253135",
+        "ele": "126",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0445471,
+          37.4147137
+        ]
+      },
+      "id": "node/12631253135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12641254527",
+        "name": "Cerro Cabeza Gorda",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7491463,
+          37.9284275
+        ]
+      },
+      "id": "node/12641254527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12720293621",
+        "name": "Cerro Panchón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7417562,
+          37.9219829
+        ]
+      },
+      "id": "node/12720293621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12769237621",
+        "ele": "719",
+        "name": "Trasierra",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.754259,
+          37.9139347
+        ]
+      },
+      "id": "node/12769237621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12769237622",
+        "ele": "781",
+        "name": "Timón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.8795288,
+          37.9892685
+        ]
+      },
+      "id": "node/12769237622"
+    }
+  ]
+}
