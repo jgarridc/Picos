@@ -25,7 +25,7 @@
         }
         .lista-ordenada li {
              padding: 0.5rem 0;
-             border-bottom: 1px solid rgba(229, 231, 235, 1);
+             border-bottom: 1px solid rgba(229, 231, 1);
         }
         .lista-ordenada li:last-child {
              border-bottom: none;
@@ -114,22 +114,29 @@
         const fileInputError = document.getElementById('file-input-error');
         const peakCountElement = document.getElementById('peak-count');
 
-        // Esta vez, en lugar de un array fijo, obtenemos la lista de archivos del servidor
+        // Función para obtener la lista de archivos GeoJSON del directorio (AJAX)
         function cargarArchivosGeoJSON() {
-            // Utiliza una petición fetch para obtener la lista de archivos GeoJSON del servidor
-            fetch('/lista_archivos_geojson') // Asegúrate de que esta ruta es correcta
+            // La ruta relativa es importante. Ajusta según la estructura de tu repositorio en GitHub.
+            const geojsonDirectory = './provincias/'; // Ruta a la carpeta "provincias"
+
+            // Usamos fetch para obtener la lista de archivos desde un archivo llamado "files.txt"
+            fetch('files.txt')
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Error al obtener la lista de archivos GeoJSON');
+                        throw new Error('No se pudo obtener la lista de archivos.');
                     }
-                    return response.json(); // Espera un JSON con un array de nombres de archivo
+                    return response.text();
                 })
-                .then(archivosGeoJSON => {
+                .then(data => {
+                    // Dividimos el texto del archivo en un array de nombres de archivo
+                    const archivosGeoJSON = data.split('\n').filter(Boolean); //Remueve lineas vacias
+
                     provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
                     archivosGeoJSON.forEach(archivo => {
                         const nombreProvincia = archivo.replace('.geojson', '');
                         const option = document.createElement('option');
-                        option.value = archivo;
+                        // Importante: La ruta debe ser correcta para que Leaflet pueda cargar el archivo.
+                        option.value = `${geojsonDirectory}${archivo}`; // Ruta completa al archivo GeoJSON
                         option.textContent = nombreProvincia;
                         provinceSelect.appendChild(option);
                     });
@@ -194,7 +201,7 @@
                             const lng = feature.geometry.coordinates[0];
                             const popupContent = `<b>${feature.properties.name || 'Sin nombre'}</b><br>
                                                   Altura: ${feature.properties.ele || 'N/A'} m<br>
-                                                  <a href="https://www.google.com/maps/place/${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
+                                                  <a href="https://www.google.com/maps/place/$${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
                             layer.bindPopup(popupContent);
                         }
                     }
@@ -231,7 +238,7 @@
                     return b.altura - a.altura;
                 });
                 elementos.forEach(elemento => {
-                    listaHTML += `<li><a href="https://www.google.com/maps/place/${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
+                    listaHTML += `<li><a href="https://www.google.com/maps/place/$${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
                 });
                 if (elementCount === 0) {
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
@@ -249,4 +256,5 @@
     </script>
 </body>
 </html>
+
 
