@@ -114,43 +114,50 @@
         const fileInputError = document.getElementById('file-input-error');
         const peakCountElement = document.getElementById('peak-count');
 
-        const archivosGeoJSON = [
-            'Alicante.geojson',
-            'Castellon.geojson',
-            'Valencia.geojson'
-        ];
-
-        let geojsonLayer;
-
+        // Esta vez, en lugar de un array fijo, obtenemos la lista de archivos del servidor
         function cargarArchivosGeoJSON() {
-            provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
-            archivosGeoJSON.forEach(archivo => {
-                const nombreProvincia = archivo.replace('.geojson', '');
-                const option = document.createElement('option');
-                option.value = archivo;
-                option.textContent = nombreProvincia;
-                provinceSelect.appendChild(option);
-            });
+            // Utiliza una petición fetch para obtener la lista de archivos GeoJSON del servidor
+            fetch('/lista_archivos_geojson') // Asegúrate de que esta ruta es correcta
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Error al obtener la lista de archivos GeoJSON');
+                    }
+                    return response.json(); // Espera un JSON con un array de nombres de archivo
+                })
+                .then(archivosGeoJSON => {
+                    provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
+                    archivosGeoJSON.forEach(archivo => {
+                        const nombreProvincia = archivo.replace('.geojson', '');
+                        const option = document.createElement('option');
+                        option.value = archivo;
+                        option.textContent = nombreProvincia;
+                        provinceSelect.appendChild(option);
+                    });
 
-            provinceSelect.addEventListener('change', (event) => {
-                const selectedFile = event.target.value;
-                if (selectedFile) {
-                    fetch(selectedFile)
-                        .then(response => {
-                            if (!response.ok) {
-                                throw new Error(`Error al cargar el archivo: ${selectedFile}`);
-                            }
-                            return response.json();
-                        })
-                        .then(geojsonData => {
-                            displayGeoJSONData(geojsonData);
-                        })
-                        .catch(error => {
-                            console.error("Error al cargar o procesar GeoJSON:", error);
-                            resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar el archivo ${selectedFile}. Por favor, verifica la ruta y el formato. Detalles: ${error.message}</li>`;
-                        });
-                }
-            });
+                    provinceSelect.addEventListener('change', (event) => {
+                        const selectedFile = event.target.value;
+                        if (selectedFile) {
+                            fetch(selectedFile)
+                                .then(response => {
+                                    if (!response.ok) {
+                                        throw new Error(`Error al cargar el archivo: ${selectedFile}`);
+                                    }
+                                    return response.json();
+                                })
+                                .then(geojsonData => {
+                                    displayGeoJSONData(geojsonData);
+                                })
+                                .catch(error => {
+                                    console.error("Error al cargar o procesar GeoJSON:", error);
+                                    resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar el archivo ${selectedFile}. Por favor, verifica la ruta y el formato. Detalles: ${error.message}</li>`;
+                                });
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error("Error al cargar la lista de archivos:", error);
+                    resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar la lista de provincias. Por favor, verifica la conexión con el servidor. Detalles: ${error.message}</li>`;
+                });
         }
 
         function displayGeoJSONData(geojsonData) {
@@ -242,3 +249,4 @@
     </script>
 </body>
 </html>
+
