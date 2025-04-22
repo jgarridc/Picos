@@ -123,7 +123,13 @@
                 "Alava.geojson",        "Albacete.geojson",     "Alicante.geojson",
                 "Almeria.geojson",      "Asturias.geojson",     "Avila.geojson",
                 "Badajoz.geojson",      "Barcelona.geojson",    "Burgos.geojson",
-                "Caceres.geojson",      "Castellon.geojson",    "Valencia.geojson"
+                "Caceres.geojson",      "Castellon.geojson",    "Valencia.geojson",
+                "Madrid.geojson",       "Murcia.geojson",       "Navarra.geojson",
+                "Ourense.geojson",      "Palencia.geojson",     "Pontevedra.geojson",
+                "Rioja.geojson",        "Salamanca.geojson",    "Segovia.geojson",
+                "Sevilla.geojson",      "Soria.geojson",        "Tarragona.geojson",
+                "Teruel.geojson",       "Toledo.geojson",       "Valladolid.geojson",
+                "Zamora.geojson",       "Zaragoza.geojson",    "Gipuzkoa.geojson"
                 // Asegúrate de que ESTOS NOMBRES DE ARCHIVO COINCIDAN EXACTAMENTE con los que tienes.
                 // ¡Incluyendo mayúsculas/minúsculas y la extensión .geojson!
             ];
@@ -246,22 +252,6 @@
     </script>
 </body>
 </html>
-```
 
-**He hecho los siguientes cambios, y es crucial que los revises cuidadosamente:**
 
-1.  **Declaración de `geojsonLayer`:** He movido `let geojsonLayer;` *fuera* de cualquier función, al principio del `<script>`, para que sea una variable global. Esto asegura que se defina *antes* de que se use en `displayGeoJSONData`.
-2.  **Asignación de `geojsonLayer`:** Dentro de `displayGeoJSONData`, me he asegurado de que el resultado de `L.geoJSON()` se *asigne* a la variable global `geojsonLayer`:
-    ```javascript
-    geojsonLayer = L.geoJSON(filteredGeojsonData, { ... }).addTo(map);
-    ```
-    Esto es fundamental para que la capa creada por Leaflet se guarde en la variable global y pueda ser eliminada en la siguiente llamada a la función.
 
-**Verifica lo Siguiente:**
-
-* **Nombres de Archivo:** Revisa *cuidadosamente* que los nombres en `archivosGeoJSON` coincidan exactamente con tus archivos (incluyendo mayúsculas y minúsculas).
-* **Ubicación de Archivos:** Asegúrate de que los archivos `.geojson` estén en la misma carpeta que tu archivo HTML, o ajusta las rutas en `archivosGeoJSON` si están en una subcarpeta.
-* **Contenido de GeoJSON:** Abre uno o dos de tus archivos `.geojson` en un editor de texto o un visor GeoJSON para confirmar que son archivos GeoJSON válidos y que contienen datos (features) con coordenadas y una propiedad "ele" (altura).  Un GeoJSON inválido también puede causar que no se muestre nada.
-* **Consola del Navegador:** Abre la consola de tu navegador (Ctrl+Shift+J o F12) y busca errores de JavaScript.  Copia *cualquier* error que veas y pégalo aquí.  Esto me dará más pistas.
-
-Por favor, revisa estos puntos con atención. El error "geojsonLayer is not defined" debería estar resuelto con este código, pero es importante descartar otros problem
