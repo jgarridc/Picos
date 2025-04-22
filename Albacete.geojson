@@ -1,0 +1,3787 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-22T16:01:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26862479",
+        "ele": "1798",
+        "name": "Almenara",
+        "natural": "peak",
+        "wikidata": "Q23988862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.448812,
+          38.5457934
+        ]
+      },
+      "id": "node/26862479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26863680",
+        "ele": "1896",
+        "name": "Mentiras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4768047,
+          38.3277668
+        ]
+      },
+      "id": "node/26863680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948747185",
+        "ele": "1014.50",
+        "name": "Arabinejo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3559084,
+          38.7380542
+        ]
+      },
+      "id": "node/948747185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948775542",
+        "ele": "1130.00",
+        "name": "Atalaya de Liétor",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9772163,
+          38.6185602
+        ]
+      },
+      "id": "node/948775542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948792312",
+        "ele": "1166.00",
+        "name": "Ballestera",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0398501,
+          38.6711859
+        ]
+      },
+      "id": "node/948792312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948792434",
+        "ele": "1106.60",
+        "name": "Castillo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9988492,
+          38.7280795
+        ]
+      },
+      "id": "node/948792434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948810507",
+        "ele": "1290.40",
+        "name": "Ventosa",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1228391,
+          38.6902161
+        ]
+      },
+      "id": "node/948810507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241849511",
+        "ele": "1111",
+        "name": "Cerro Gordo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0118973,
+          38.7286886
+        ]
+      },
+      "id": "node/1241849511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241854053",
+        "ele": "1171",
+        "name": "Cerro del Bosque",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2416069,
+          39.0111419
+        ]
+      },
+      "id": "node/1241854053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241855158",
+        "ele": "1185",
+        "name": "Cerro del Sabinar",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2655643,
+          39.0328133
+        ]
+      },
+      "id": "node/1241855158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241858033",
+        "ele": "1062",
+        "name": "Cerro de las Cabras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3128994,
+          39.0230343
+        ]
+      },
+      "id": "node/1241858033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241860697",
+        "ele": "1162",
+        "name": "Cerro de las Gorrineras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2655544,
+          39.0436284
+        ]
+      },
+      "id": "node/1241860697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241862066",
+        "ele": "1024",
+        "name": "Sierra de San Antón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0039229,
+          38.6449241
+        ]
+      },
+      "id": "node/1241862066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241892304",
+        "ele": "1125",
+        "name": "Cerro Jimeno",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2721774,
+          39.0534465
+        ]
+      },
+      "id": "node/1241892304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241907577",
+        "ele": "1031",
+        "name": "Cerro del Soldado",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9862209,
+          38.6587856
+        ]
+      },
+      "id": "node/1241907577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241917027",
+        "ele": "1728",
+        "name": "Cerro del Oro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4884022,
+          38.0616769
+        ]
+      },
+      "id": "node/1241917027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241927395",
+        "ele": "1027",
+        "name": "Cerro Comino",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0018531,
+          38.6613726
+        ]
+      },
+      "id": "node/1241927395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241935341",
+        "ele": "1162",
+        "name": "Ceja de la Muela",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2729595,
+          39.0297812
+        ]
+      },
+      "id": "node/1241935341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241937005",
+        "ele": "1024",
+        "name": "Cerro de la Alpujarra",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0013538,
+          38.6370527
+        ]
+      },
+      "id": "node/1241937005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1241947829",
+        "ele": "1075",
+        "name": "Cerro Gordo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2990826,
+          39.0207943
+        ]
+      },
+      "id": "node/1241947829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249810868",
+        "name": "Cerro de San Cristóbal",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2791484,
+          38.4707093
+        ]
+      },
+      "id": "node/1249810868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249811452",
+        "name": "Cerro de la Calera",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.977296,
+          38.5548327
+        ]
+      },
+      "id": "node/1249811452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249811710",
+        "ele": "1137",
+        "name": "Cerro de la Pared",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3906378,
+          38.969413
+        ]
+      },
+      "id": "node/1249811710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249811845",
+        "ele": "1498",
+        "name": "Pico de los Machos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4802909,
+          38.5210709
+        ]
+      },
+      "id": "node/1249811845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249811972",
+        "name": "Puntal de las Mesas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4745571,
+          38.4404441
+        ]
+      },
+      "id": "node/1249811972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249812175",
+        "name": "Peña de la Monteta",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2286366,
+          38.4317654
+        ]
+      },
+      "id": "node/1249812175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249812536",
+        "name": "Cerro de las Tres Piedras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4214614,
+          38.9627949
+        ]
+      },
+      "id": "node/1249812536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249812771",
+        "name": "Pico del Cerrón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4428051,
+          38.4212197
+        ]
+      },
+      "id": "node/1249812771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249812841",
+        "ele": "1968",
+        "name": "Peña de Moratalla",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3292266,
+          38.0669099
+        ]
+      },
+      "id": "node/1249812841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249812895",
+        "name": "Cerro de la Tejera",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9772141,
+          38.5676446
+        ]
+      },
+      "id": "node/1249812895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249812968",
+        "name": "Cerro Viboreros",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4202291,
+          38.4337714
+        ]
+      },
+      "id": "node/1249812968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249813109",
+        "name": "Pico del Guijón o Cueva del Agua",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3525658,
+          38.4565615
+        ]
+      },
+      "id": "node/1249813109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249813509",
+        "name": "Cerro del Manto",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4169729,
+          38.9729269
+        ]
+      },
+      "id": "node/1249813509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249813532",
+        "name": "Cerro del Cabezo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5452826,
+          38.4635844
+        ]
+      },
+      "id": "node/1249813532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249813557",
+        "name": "Cerro de las Minas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5033283,
+          38.4386366
+        ]
+      },
+      "id": "node/1249813557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249813574",
+        "name": "Peña Rubia",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0689206,
+          38.5559948
+        ]
+      },
+      "id": "node/1249813574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249813603",
+        "name": "Pico de Galocho",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4629091,
+          38.1285977
+        ]
+      },
+      "id": "node/1249813603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249814039",
+        "name": "Cerro Matamoros",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4728874,
+          38.5405663
+        ]
+      },
+      "id": "node/1249814039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249814046",
+        "ele": "1598",
+        "name": "Cerro de las Cruces",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3983729,
+          38.4643134
+        ]
+      },
+      "id": "node/1249814046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249814060",
+        "name": "Peña de Plaga",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2533225,
+          38.4434392
+        ]
+      },
+      "id": "node/1249814060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249814302",
+        "ele": "608",
+        "name": "Cabezo del Puerto",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5058039,
+          38.3598046
+        ]
+      },
+      "id": "node/1249814302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249814555",
+        "ele": "1155",
+        "name": "Cerro del Cenajo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3896895,
+          38.9757883
+        ]
+      },
+      "id": "node/1249814555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249814627",
+        "name": "Alto de la Hoya de los Guijarros",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5883384,
+          38.5392902
+        ]
+      },
+      "id": "node/1249814627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249815269",
+        "ele": "884",
+        "name": "Cerro Gordo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9644639,
+          38.5559628
+        ]
+      },
+      "id": "node/1249815269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249815495",
+        "name": "Cerro Pardo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4527501,
+          38.9928429
+        ]
+      },
+      "id": "node/1249815495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249815718",
+        "name": "Peña de la Atalaya",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0848827,
+          38.599361
+        ]
+      },
+      "id": "node/1249815718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249815790",
+        "name": "Peña de la Lastra",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4764309,
+          38.4174817
+        ]
+      },
+      "id": "node/1249815790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249815913",
+        "name": "Peña Horadada",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2235112,
+          38.4460064
+        ]
+      },
+      "id": "node/1249815913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249816317",
+        "name": "Cerro de los Gramones",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9876833,
+          38.558291
+        ]
+      },
+      "id": "node/1249816317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249816461",
+        "name": "Peña de la Virgen",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5427754,
+          39.2622544
+        ]
+      },
+      "id": "node/1249816461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249816686",
+        "name": "Cerro Majalón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4998704,
+          38.5246438
+        ]
+      },
+      "id": "node/1249816686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249816804",
+        "name": "Mesa de los Charcones",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4543158,
+          38.4437611
+        ]
+      },
+      "id": "node/1249816804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249816935",
+        "name": "Alto de la Herrada",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.266601,
+          38.426557
+        ]
+      },
+      "id": "node/1249816935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249817284",
+        "name": "Cerro de la Punta",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3628346,
+          38.9870111
+        ]
+      },
+      "id": "node/1249817284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249817341",
+        "name": "Cerro de Juan Fría",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5315112,
+          38.4890427
+        ]
+      },
+      "id": "node/1249817341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249817461",
+        "name": "Peña del Águila",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4922458,
+          38.419741
+        ]
+      },
+      "id": "node/1249817461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249817583",
+        "name": "Cerro de la Cabañica",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9963572,
+          38.5783422
+        ]
+      },
+      "id": "node/1249817583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249817764",
+        "ele": "2043",
+        "name": "El Cagasero",
+        "natural": "peak",
+        "source": "https://www.ign.es/iberpix2/visor/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4042028,
+          38.0705301
+        ]
+      },
+      "id": "node/1249817764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818025",
+        "name": "Cerro del Judío",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4696321,
+          38.5385509
+        ]
+      },
+      "id": "node/1249818025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818216",
+        "ele": "1662",
+        "name": "Cerro de los Tornajos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3837942,
+          38.4467808
+        ]
+      },
+      "id": "node/1249818216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818338",
+        "name": "Cerro de la Cantera",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.103234,
+          38.5624422
+        ]
+      },
+      "id": "node/1249818338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818684",
+        "name": "Pico del Castellón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5122446,
+          38.4098418
+        ]
+      },
+      "id": "node/1249818684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818752",
+        "name": "Cerro Vico",
+        "natural": "peak",
+        "wikidata": "Q23977886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.657125,
+          38.5222731
+        ]
+      },
+      "id": "node/1249818752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818805",
+        "name": "Poyo del Espliegar",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4783025,
+          38.4216174
+        ]
+      },
+      "id": "node/1249818805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249818917",
+        "name": "Peña de la Cruz",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2324053,
+          38.4600506
+        ]
+      },
+      "id": "node/1249818917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249819239",
+        "name": "Cerro del Padre Jesús",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9835537,
+          38.570801
+        ]
+      },
+      "id": "node/1249819239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249819403",
+        "name": "Cerro de la Fuente Navalón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4165005,
+          38.9599361
+        ]
+      },
+      "id": "node/1249819403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249819573",
+        "ele": "1226",
+        "name": "Punta de Gira Valencia",
+        "natural": "peak",
+        "wikidata": "Q23986164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3772933,
+          38.991385
+        ]
+      },
+      "id": "node/1249819573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249819652",
+        "name": "Peñarrubia",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1757546,
+          38.6017268
+        ]
+      },
+      "id": "node/1249819652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1589705487",
+        "ele": "1178",
+        "name": "Segunda Ballestera",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0492496,
+          38.6691772
+        ]
+      },
+      "id": "node/1589705487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2585757979",
+        "name": "Pitón volcánico de Cancarix",
+        "natural": "peak",
+        "wikidata": "Q5406247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.595569,
+          38.4180958
+        ]
+      },
+      "id": "node/2585757979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2611490350",
+        "ele": "1058",
+        "name": "La Tinaja",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4894688,
+          38.8943682
+        ]
+      },
+      "id": "node/2611490350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2644202862",
+        "ele": "1503",
+        "name": "Padrastro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2331307,
+          38.5659102
+        ]
+      },
+      "id": "node/2644202862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2644203829",
+        "ele": "1150",
+        "name": "Picayo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2089144,
+          38.5747973
+        ]
+      },
+      "id": "node/2644203829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3749934768",
+        "name": "Los Picarazos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5210724,
+          38.488317
+        ]
+      },
+      "id": "node/3749934768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3986900659",
+        "ele": "2080",
+        "name": "Pico de Las Cabras",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3913177,
+          38.0659431
+        ]
+      },
+      "id": "node/3986900659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4572067312",
+        "name": "La Almenarilla",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4619544,
+          38.5343555
+        ]
+      },
+      "id": "node/4572067312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575083404",
+        "name": "Peña Bolomba",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3154547,
+          38.4662942
+        ]
+      },
+      "id": "node/4575083404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623302768",
+        "ele": "1215",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3833349,
+          38.9914044
+        ]
+      },
+      "id": "node/4623302768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4873853597",
+        "ele": "1516",
+        "name": "Alto de Peñalta",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3071347,
+          38.5806808
+        ]
+      },
+      "id": "node/4873853597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081331961",
+        "ele": "875",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3475553,
+          38.7599332
+        ]
+      },
+      "id": "node/5081331961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081331962",
+        "ele": "997",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3578041,
+          38.7365408
+        ]
+      },
+      "id": "node/5081331962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081331964",
+        "ele": "976",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3605834,
+          38.7280261
+        ]
+      },
+      "id": "node/5081331964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081352893",
+        "ele": "856",
+        "name": "Las Hoyicas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3200325,
+          38.6933978
+        ]
+      },
+      "id": "node/5081352893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346590696",
+        "name": "Molar",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0580365,
+          38.5332398
+        ]
+      },
+      "id": "node/5346590696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346892361",
+        "name": "Los Picarzos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0749791,
+          38.5532293
+        ]
+      },
+      "id": "node/5346892361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5354951099",
+        "name": "La Albarda",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1257275,
+          38.5326301
+        ]
+      },
+      "id": "node/5354951099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5409655711",
+        "ele": "1179",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4382961,
+          38.5093589
+        ]
+      },
+      "id": "node/5409655711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5409655712",
+        "ele": "1265",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4490756,
+          38.5129654
+        ]
+      },
+      "id": "node/5409655712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5540177011",
+        "ele": "1435",
+        "name": "Ardal",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3505003,
+          38.3604812
+        ]
+      },
+      "id": "node/5540177011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6932173972",
+        "ele": "1503",
+        "name": "Pico de la Cabeza",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.363173,
+          38.5769071
+        ]
+      },
+      "id": "node/6932173972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463980",
+        "ele": "1789",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4794941,
+          38.327545
+        ]
+      },
+      "id": "node/7273463980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463981",
+        "ele": "1887",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.477084,
+          38.3270905
+        ]
+      },
+      "id": "node/7273463981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463982",
+        "ele": "1892",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.477138,
+          38.3267997
+        ]
+      },
+      "id": "node/7273463982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463984",
+        "ele": "1871",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4790443,
+          38.3241245
+        ]
+      },
+      "id": "node/7273463984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463985",
+        "ele": "1897",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47973,
+          38.3231283
+        ]
+      },
+      "id": "node/7273463985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463986",
+        "ele": "1373",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.469914,
+          38.3220623
+        ]
+      },
+      "id": "node/7273463986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463987",
+        "ele": "1557",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4719838,
+          38.321066
+        ]
+      },
+      "id": "node/7273463987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463988",
+        "ele": "1441",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4676214,
+          38.3187878
+        ]
+      },
+      "id": "node/7273463988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463989",
+        "ele": "1441",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4670719,
+          38.3183302
+        ]
+      },
+      "id": "node/7273463989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273463990",
+        "ele": "1835",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4695462,
+          38.3320563
+        ]
+      },
+      "id": "node/7273463990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464068",
+        "ele": "905",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5580109,
+          38.4085108
+        ]
+      },
+      "id": "node/7273464068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464071",
+        "ele": "836",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5452697,
+          38.4053469
+        ]
+      },
+      "id": "node/7273464071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464072",
+        "ele": "845",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5402561,
+          38.4095143
+        ]
+      },
+      "id": "node/7273464072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464073",
+        "ele": "879",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5382145,
+          38.4055662
+        ]
+      },
+      "id": "node/7273464073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464074",
+        "ele": "887",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5358682,
+          38.4077661
+        ]
+      },
+      "id": "node/7273464074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464076",
+        "ele": "839",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5427069,
+          38.4116203
+        ]
+      },
+      "id": "node/7273464076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7273464196",
+        "ele": "1764",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4810866,
+          38.3135147
+        ]
+      },
+      "id": "node/7273464196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961624",
+        "ele": "1722",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4827398,
+          38.3074425
+        ]
+      },
+      "id": "node/7275961624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961625",
+        "ele": "1721",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4805415,
+          38.3094053
+        ]
+      },
+      "id": "node/7275961625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961626",
+        "ele": "1735",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4828819,
+          38.3026541
+        ]
+      },
+      "id": "node/7275961626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961632",
+        "ele": "1325",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4880365,
+          38.3640465
+        ]
+      },
+      "id": "node/7275961632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961633",
+        "ele": "1112",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4841711,
+          38.357208
+        ]
+      },
+      "id": "node/7275961633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961634",
+        "ele": "1325",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4808284,
+          38.3563559
+        ]
+      },
+      "id": "node/7275961634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961635",
+        "ele": "1435",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.477692,
+          38.3548133
+        ]
+      },
+      "id": "node/7275961635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961636",
+        "ele": "1283",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.477018,
+          38.3595056
+        ]
+      },
+      "id": "node/7275961636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961660",
+        "ele": "1489",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.480355,
+          38.3515085
+        ]
+      },
+      "id": "node/7275961660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961661",
+        "ele": "1486",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4807327,
+          38.3513868
+        ]
+      },
+      "id": "node/7275961661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961662",
+        "ele": "1482",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4800177,
+          38.3514556
+        ]
+      },
+      "id": "node/7275961662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961683",
+        "ele": "1471",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4914044,
+          38.397147
+        ]
+      },
+      "id": "node/7275961683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275961684",
+        "ele": "1466",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4913219,
+          38.3977294
+        ]
+      },
+      "id": "node/7275961684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964985",
+        "ele": "1474",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4905581,
+          38.3990398
+        ]
+      },
+      "id": "node/7275964985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964986",
+        "ele": "1363",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.495257,
+          38.39839
+        ]
+      },
+      "id": "node/7275964986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964988",
+        "ele": "1422",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4977595,
+          38.3995489
+        ]
+      },
+      "id": "node/7275964988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964989",
+        "ele": "1417",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4973898,
+          38.3997049
+        ]
+      },
+      "id": "node/7275964989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964990",
+        "ele": "1427",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.49675,
+          38.3998832
+        ]
+      },
+      "id": "node/7275964990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964991",
+        "ele": "1351",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.502537,
+          38.3995712
+        ]
+      },
+      "id": "node/7275964991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964992",
+        "ele": "1348",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5023521,
+          38.4003067
+        ]
+      },
+      "id": "node/7275964992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964993",
+        "ele": "1356",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5013995,
+          38.4010644
+        ]
+      },
+      "id": "node/7275964993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275964999",
+        "ele": "1109",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5173129,
+          38.4048428
+        ]
+      },
+      "id": "node/7275964999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965000",
+        "ele": "1018",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5259002,
+          38.4048104
+        ]
+      },
+      "id": "node/7275965000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965001",
+        "ele": "1034",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5244553,
+          38.4061027
+        ]
+      },
+      "id": "node/7275965001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965002",
+        "ele": "1055",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.51404,
+          38.4037349
+        ]
+      },
+      "id": "node/7275965002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965003",
+        "ele": "999",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5619432,
+          38.4128226
+        ]
+      },
+      "id": "node/7275965003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965013",
+        "ele": "1225",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5716086,
+          38.4671833
+        ]
+      },
+      "id": "node/7275965013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965019",
+        "ele": "1394",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5742681,
+          38.4789777
+        ]
+      },
+      "id": "node/7275965019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965020",
+        "ele": "1413",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5733588,
+          38.4784672
+        ]
+      },
+      "id": "node/7275965020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965021",
+        "ele": "1305",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5683314,
+          38.476721
+        ]
+      },
+      "id": "node/7275965021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965022",
+        "ele": "1275",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.566341,
+          38.4743837
+        ]
+      },
+      "id": "node/7275965022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965023",
+        "ele": "1372",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5753663,
+          38.4821744
+        ]
+      },
+      "id": "node/7275965023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965025",
+        "ele": "1307",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.570459,
+          38.4833698
+        ]
+      },
+      "id": "node/7275965025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965036",
+        "ele": "1388",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5657768,
+          38.4906258
+        ]
+      },
+      "id": "node/7275965036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965040",
+        "ele": "1404",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5707336,
+          38.4957331
+        ]
+      },
+      "id": "node/7275965040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965042",
+        "ele": "1439",
+        "name": "Pico de la Tejera",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5741128,
+          38.4983659
+        ]
+      },
+      "id": "node/7275965042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7275965043",
+        "ele": "1318",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5776435,
+          38.5009986
+        ]
+      },
+      "id": "node/7275965043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7329872830",
+        "ele": "2018",
+        "name": "Piedra de la Lobera",
+        "natural": "peak",
+        "source": "https://www.ign.es/iberpix2/visor/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4005556,
+          38.0678556
+        ]
+      },
+      "id": "node/7329872830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7329872831",
+        "ele": "2083",
+        "name": "La Atalaya",
+        "natural": "peak",
+        "source": "https://www.ign.es/iberpix2/visor/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3913825,
+          38.0605067
+        ]
+      },
+      "id": "node/7329872831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7495702957",
+        "ele": "1149",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5175377,
+          38.4014148
+        ]
+      },
+      "id": "node/7495702957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8815023411",
+        "ele": "956",
+        "name": "Cerrico Marín",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.99568,
+          38.6450122
+        ]
+      },
+      "id": "node/8815023411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8815069386",
+        "ele": "1269",
+        "name": "Molar del Molinar",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0781684,
+          38.6904892
+        ]
+      },
+      "id": "node/8815069386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270457",
+        "ele": "1012",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1690596,
+          38.5327178
+        ]
+      },
+      "id": "node/9308270457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270458",
+        "ele": "1002",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1642591,
+          38.5350872
+        ]
+      },
+      "id": "node/9308270458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270459",
+        "ele": "1000",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1669243,
+          38.5301009
+        ]
+      },
+      "id": "node/9308270459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270460",
+        "ele": "1021",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1621237,
+          38.5304535
+        ]
+      },
+      "id": "node/9308270460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270478",
+        "ele": "821",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1553698,
+          38.5391763
+        ]
+      },
+      "id": "node/9308270478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270480",
+        "ele": "853",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1507749,
+          38.5411496
+        ]
+      },
+      "id": "node/9308270480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270510",
+        "ele": "987",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1646308,
+          38.5380875
+        ]
+      },
+      "id": "node/9308270510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9308270511",
+        "ele": "986",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1624559,
+          38.5400609
+        ]
+      },
+      "id": "node/9308270511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9695167313",
+        "ele": "1699",
+        "name": "Argel",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3907468,
+          38.4447766
+        ]
+      },
+      "id": "node/9695167313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10129926175",
+        "ele": "1632",
+        "name": "Calar del Mundo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4784089,
+          38.3875803
+        ]
+      },
+      "id": "node/10129926175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10251668288",
+        "ele": "1255",
+        "name": "Roble",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0815822,
+          38.7275843
+        ]
+      },
+      "id": "node/10251668288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10258967617",
+        "ele": "1488",
+        "name": "Torca Honda",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4713551,
+          38.4784632
+        ]
+      },
+      "id": "node/10258967617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10258976112",
+        "ele": "1515",
+        "name": "Cerro de Torca Honda",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4717398,
+          38.477287
+        ]
+      },
+      "id": "node/10258976112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10258997729",
+        "ele": "1443",
+        "name": "Picos del Oso",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3685346,
+          38.4976314
+        ]
+      },
+      "id": "node/10258997729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10258999409",
+        "ele": "1435",
+        "name": "Ituero Grande",
+        "natural": "peak",
+        "source": "IGN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4721241,
+          38.438668
+        ]
+      },
+      "id": "node/10258999409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10801498695",
+        "name": "Morra Encantada",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.926267,
+          39.1661004
+        ]
+      },
+      "id": "node/10801498695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10886687902",
+        "ele": "1649",
+        "name": "Puntal de la Raspilla",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3785329,
+          38.4396412
+        ]
+      },
+      "id": "node/10886687902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10886821480",
+        "ele": "1064",
+        "name": "Cerro Lobo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3516568,
+          38.4154075
+        ]
+      },
+      "id": "node/10886821480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10886962443",
+        "ele": "1752",
+        "name": "Monte Padrón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.518194,
+          38.5053149
+        ]
+      },
+      "id": "node/10886962443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10887185388",
+        "ele": "1243",
+        "name": "Pico del Cerrón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5180189,
+          38.4757327
+        ]
+      },
+      "id": "node/10887185388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10887189107",
+        "ele": "1524",
+        "name": "Cerro del Picayo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5001559,
+          38.4968435
+        ]
+      },
+      "id": "node/10887189107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10887204938",
+        "ele": "1099",
+        "name": "Piedra del Águila",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5011326,
+          38.4607062
+        ]
+      },
+      "id": "node/10887204938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10887207815",
+        "ele": "1232",
+        "name": "Ituero Chico",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4907766,
+          38.4370499
+        ]
+      },
+      "id": "node/10887207815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10887247382",
+        "ele": "1416",
+        "name": "Ituero de Cotillas",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.477424,
+          38.4346073
+        ]
+      },
+      "id": "node/10887247382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10888853038",
+        "ele": "1173",
+        "name": "Peñón de la Ventana",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4220261,
+          38.3900972
+        ]
+      },
+      "id": "node/10888853038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10888878936",
+        "ele": "1008",
+        "name": "Macalón de la Tobica",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4433501,
+          38.3764515
+        ]
+      },
+      "id": "node/10888878936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10888919753",
+        "ele": "1505",
+        "name": "Puntal de la Encomienda",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4342038,
+          38.4109686
+        ]
+      },
+      "id": "node/10888919753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10907693193",
+        "ele": "1503",
+        "name": "Balcón de Pilatos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3700375,
+          38.4501946
+        ]
+      },
+      "id": "node/10907693193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11232828663",
+        "ele": "1116",
+        "name": "Cerro Alto",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6944745,
+          38.6099881
+        ]
+      },
+      "id": "node/11232828663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11233313222",
+        "ele": "1375",
+        "name": "Morra del Navacico",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4504105,
+          38.4520793
+        ]
+      },
+      "id": "node/11233313222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235088221",
+        "ele": "1384",
+        "name": "Cerro de los Puestos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4806026,
+          38.4654625
+        ]
+      },
+      "id": "node/11235088221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235092669",
+        "ele": "1588",
+        "name": "Cerro del Padroncillo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4673743,
+          38.4742725
+        ]
+      },
+      "id": "node/11235092669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235094087",
+        "ele": "1316",
+        "name": "Cerro de la Sepultura",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4863783,
+          38.4862808
+        ]
+      },
+      "id": "node/11235094087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235097189",
+        "ele": "1428",
+        "name": "Puntal del Collado Tornero",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4627613,
+          38.3572892
+        ]
+      },
+      "id": "node/11235097189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235101595",
+        "ele": "1382",
+        "name": "Cerro de los Cucuruchos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4862087,
+          38.5531548
+        ]
+      },
+      "id": "node/11235101595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235114200",
+        "ele": "1482",
+        "name": "Puntal de la Escaleruela",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4724203,
+          38.3729525
+        ]
+      },
+      "id": "node/11235114200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11235123298",
+        "ele": "1301",
+        "name": "Morra del Rayo",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4602646,
+          38.2993739
+        ]
+      },
+      "id": "node/11235123298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11236709353",
+        "ele": "1575",
+        "name": "Alto de los Muletos",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4087377,
+          38.5894478
+        ]
+      },
+      "id": "node/11236709353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11236757882",
+        "ele": "1699",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4264149,
+          38.5532199
+        ]
+      },
+      "id": "node/11236757882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240337064",
+        "ele": "1678",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5405886,
+          38.5049254
+        ]
+      },
+      "id": "node/11240337064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240338794",
+        "ele": "1622",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5350821,
+          38.5077308
+        ]
+      },
+      "id": "node/11240338794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240342138",
+        "ele": "1608",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5407705,
+          38.5070479
+        ]
+      },
+      "id": "node/11240342138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240364128",
+        "ele": "1770",
+        "name": "Pico de La Sarga",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5260335,
+          38.5013995
+        ]
+      },
+      "id": "node/11240364128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240374746",
+        "ele": "1671",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5329042,
+          38.5085823
+        ]
+      },
+      "id": "node/11240374746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240375759",
+        "ele": "1584",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5526833,
+          38.5051057
+        ]
+      },
+      "id": "node/11240375759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240379810",
+        "ele": "1518",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5555117,
+          38.5031356
+        ]
+      },
+      "id": "node/11240379810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240399251",
+        "ele": "1687",
+        "name": "Pico Padrón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5469818,
+          38.5067606
+        ]
+      },
+      "id": "node/11240399251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11240402657",
+        "ele": "1595",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5516172,
+          38.5053795
+        ]
+      },
+      "id": "node/11240402657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11278474404",
+        "ele": "525",
+        "name": "Peñón del Castillo de Don Sancho",
+        "natural": "peak",
+        "source": "Acadèmia Valenciana de la Llengua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1909625,
+          39.2000656
+        ]
+      },
+      "id": "node/11278474404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294416393",
+        "ele": "891",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2911997,
+          38.8893736
+        ]
+      },
+      "id": "node/11294416393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294416454",
+        "ele": "902",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3263202,
+          38.897762
+        ]
+      },
+      "id": "node/11294416454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11301601144",
+        "ele": "958",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7201653,
+          38.9176424
+        ]
+      },
+      "id": "node/11301601144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11333243071",
+        "ele": "945",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4581135,
+          38.8089557
+        ]
+      },
+      "id": "node/11333243071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11355658162",
+        "ele": "907",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2934573,
+          38.9009396
+        ]
+      },
+      "id": "node/11355658162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11413933225",
+        "ele": "775",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0542888,
+          38.6919098
+        ]
+      },
+      "id": "node/11413933225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11415367029",
+        "ele": "558",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.976096,
+          38.6674179
+        ]
+      },
+      "id": "node/11415367029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11415373509",
+        "ele": "581",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9774509,
+          38.6630055
+        ]
+      },
+      "id": "node/11415373509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11686760907",
+        "ele": "679",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6948676,
+          38.5901596
+        ]
+      },
+      "id": "node/11686760907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11699119634",
+        "ele": "743",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.775712,
+          38.5700524
+        ]
+      },
+      "id": "node/11699119634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11831571523",
+        "ele": "1722",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4846273,
+          38.0563
+        ]
+      },
+      "id": "node/11831571523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11939881376",
+        "ele": "1301",
+        "name": "Peña del Águila",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4226352,
+          38.6261253
+        ]
+      },
+      "id": "node/11939881376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11961088407",
+        "ele": "1389",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3177374,
+          38.5999236
+        ]
+      },
+      "id": "node/11961088407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11961088408",
+        "ele": "1383",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3184034,
+          38.5976663
+        ]
+      },
+      "id": "node/11961088408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11961088409",
+        "ele": "1256",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3080653,
+          38.5985279
+        ]
+      },
+      "id": "node/11961088409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009349289",
+        "ele": "1523",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4022731,
+          38.5216615
+        ]
+      },
+      "id": "node/12009349289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009349290",
+        "ele": "1538",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3963535,
+          38.5234069
+        ]
+      },
+      "id": "node/12009349290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009349291",
+        "ele": "1574",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.387973,
+          38.5269627
+        ]
+      },
+      "id": "node/12009349291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009349292",
+        "ele": "1588",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3855665,
+          38.5279727
+        ]
+      },
+      "id": "node/12009349292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009349293",
+        "ele": "1624",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3816897,
+          38.5283658
+        ]
+      },
+      "id": "node/12009349293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009349294",
+        "ele": "1628",
+        "name": "Alto del Gallinero",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3809237,
+          38.5280922
+        ]
+      },
+      "id": "node/12009349294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12017194398",
+        "ele": "1283",
+        "name": "Moclín",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4429921,
+          38.6247708
+        ]
+      },
+      "id": "node/12017194398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12071682480",
+        "ele": "1202",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4168863,
+          38.9868484
+        ]
+      },
+      "id": "node/12071682480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12121979221",
+        "ele": "2071",
+        "name": "Calderón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.398923,
+          38.0612974
+        ]
+      },
+      "id": "node/12121979221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12185458370",
+        "ele": "757",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5066127,
+          38.653988
+        ]
+      },
+      "id": "node/12185458370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12185458371",
+        "ele": "754",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5069579,
+          38.6524382
+        ]
+      },
+      "id": "node/12185458371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12329176296",
+        "ele": "1069",
+        "name": "Cerro Ramón",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2404655,
+          39.113546
+        ]
+      },
+      "id": "node/12329176296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12598074684",
+        "ele": "1191",
+        "name": "Piedra del Tesoro",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4376368,
+          38.4747036
+        ]
+      },
+      "id": "node/12598074684"
+    }
+  ]
+}
