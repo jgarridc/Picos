@@ -84,6 +84,24 @@
         #peak-count span {
             color: #dc2626;
         }
+        .filter-inputs {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            align-items: center;
+        }
+        .filter-inputs input {
+            padding: 0.375rem 0.75rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.375rem;
+            width: 120px;
+            font-size: 0.875rem;
+            height: auto;
+        }
+        .filter-inputs label {
+            font-size: 0.875rem;
+            color: #4a5568;
+        }
     </style>
 </head>
 <body class="bg-gray-100 p-4">
@@ -93,6 +111,12 @@
             <select id="province-select" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                 <option value="" disabled selected>Selecciona una provincia</option>
             </select>
+            <div class="filter-inputs">
+                <label for="min-height">Altura Mínima:</label>
+                <input type="number" id="min-height" placeholder="Mínima">
+                <label for="max-height">Altura Máxima:</label>
+                <input type="number" id="max-height" placeholder="Máxima">
+            </div>
             <p id="file-input-error" class="text-red-500 text-xs italic" style="display: none;">Por favor, selecciona un archivo GeoJSON.</p>
         </div>
         <div class="map-and-list">
@@ -113,6 +137,8 @@
         const provinceSelect = document.getElementById('province-select');
         const fileInputError = document.getElementById('file-input-error');
         const peakCountElement = document.getElementById('peak-count');
+        const minHeightInput = document.getElementById('min-height');
+        const maxHeightInput = document.getElementById('max-height');
 
         let geojsonLayer; // Declarar geojsonLayer en el ámbito global
 
@@ -175,17 +201,16 @@
                     throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
                 }
 
-                // Eliminar la capa anterior si existe
-                if (geojsonLayer) {
-                    map.removeLayer(geojsonLayer);
-                }
+                // Obtener los valores de altura mínima y máxima
+                const minHeight = parseFloat(minHeightInput.value) || -Infinity;
+                const maxHeight = parseFloat(maxHeightInput.value) || Infinity;
 
                 const filteredFeatures = geojsonData.features.filter(feature => {
                     let altura = feature.properties.ele;
                     if (typeof altura !== 'number') {
                          altura = parseInt(feature.properties.ele);
                     }
-                    return typeof altura === 'number' && altura >= 1000;
+                    return typeof altura === 'number' && altura >= minHeight && altura <= maxHeight;
                 });
 
                 const filteredGeojsonData = { ...geojsonData, features: filteredFeatures };
@@ -239,10 +264,10 @@
                     listaHTML += `<li><a href="https://www.google.com/maps?q={elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
                 });
                 if (elementCount === 0) {
-                    listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
+                    listaHTML = `<li class="text-gray-500">No se encontraron elementos que cumplan con los criterios de altura especificados.</li>`;
                 }
                 resultadosLista.innerHTML = listaHTML;
-                peakCountElement.innerHTML = `<b>Total de picos de más de 1000 metros: </b><span>${numberOfPicos}</span>`;
+                peakCountElement.innerHTML = `<b>Total de picos encontrados: </b><span>${numberOfPicos}</span>`;
             } catch (error) {
                 console.error("Error al procesar GeoJSON:", error);
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
@@ -254,6 +279,3 @@
     </script>
 </body>
 </html>
-
-
-
