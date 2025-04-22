@@ -74,10 +74,13 @@
         }
         #peak-count {
             margin-top: 1rem;
-            font-size: 1rem;
+            font-size: 1.25rem;
             font-weight: bold;
-            color: #333;
-            text-align: center; /* Centramos el contador */
+            color: #dc2626;
+            text-align: center;
+            width: 66.66%;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -106,7 +109,7 @@
         const resultadosLista = document.getElementById('resultados-lista');
         const provinceSelect = document.getElementById('province-select');
         const fileInputError = document.getElementById('file-input-error');
-        const peakCountElement = document.getElementById('peak-count'); // Obtenemos el elemento para mostrar el contador
+        const peakCountElement = document.getElementById('peak-count');
 
         const archivosGeoJSON = [
             'Alicante.geojson',
@@ -161,9 +164,8 @@
                     map.removeLayer(geojsonLayer);
                 }
 
-                // Filtrar features para mostrar solo los que tienen una altura mayor o igual a 1000 metros
                 const filteredFeatures = geojsonData.features.filter(feature => {
-                    let altura = feature.properties.ele; // Accedemos a la altura usando feature.properties.ele
+                    let altura = feature.properties.ele;
                      if (typeof altura !== 'number') {
                         altura = parseInt(feature.properties.ele);
                      }
@@ -172,9 +174,8 @@
                     return typeof altura === 'number' && altura >= 1000;
                 });
 
-                // Crear un nuevo objeto GeoJSON con las features filtradas
                 const filteredGeojsonData = { ...geojsonData, features: filteredFeatures };
-                const numberOfPicos = filteredGeojsonData.features.length; // Contamos los picos
+                const numberOfPicos = filteredGeojsonData.features.length;
 
                 geojsonLayer = L.geoJSON(filteredGeojsonData, {
                     onEachFeature: function (feature, layer) {
@@ -197,13 +198,13 @@
                 let listaHTML = '';
                 let elementCount = 0;
                 const elementos = [];
-                filteredGeojsonData.features.forEach(feature => { // Usamos filteredGeojsonData.features para iterar sobre las features filtradas
+                filteredGeojsonData.features.forEach(feature => {
                     elementCount++;
                     let nombre = "Sin nombre";
                     let tipo = "Elemento";
                     let lat = null;
                     let lng = null;
-                    let altura = feature.properties.ele || null; // Accedemos a la altura usando feature.properties.ele
+                    let altura = feature.properties.ele || null;
                      if (typeof altura !== 'number') {
                         altura = parseInt(feature.properties.ele);
                      }
@@ -226,11 +227,11 @@
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
                 }
                 resultadosLista.innerHTML = listaHTML;
-                peakCountElement.textContent = `Total de picos: ${numberOfPicos}`; // Mostramos el total de picos
+                peakCountElement.textContent = `<b>Total de picos de más de 1000 metros:</b> ${numberOfPicos}`;
             } catch (error) {
                 console.error("Error al procesar GeoJSON:", error);
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
-                peakCountElement.textContent = ''; // Limpiamos el contador en caso de error
+                peakCountElement.textContent = '';
             }
         }
 
