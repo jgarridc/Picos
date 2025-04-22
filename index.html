@@ -156,6 +156,8 @@
                 // Filtrar features para mostrar solo los que tienen una altura mayor o igual a 1000 metros
                 const filteredFeatures = geojsonData.features.filter(feature => {
                     const altura = feature.properties.ele; // Accedemos a la altura usando feature.properties.ele
+                    console.log("Feature:", feature); // Añadimos console.log para inspeccionar cada feature
+                    console.log("Altura:", altura);
                     return typeof altura === 'number' && altura >= 1000;
                 });
 
@@ -219,6 +221,7 @@
     </script>
 </body>
 </html>
+
 
 
 
