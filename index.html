@@ -114,57 +114,48 @@
         const fileInputError = document.getElementById('file-input-error');
         const peakCountElement = document.getElementById('peak-count');
 
-        // Función para obtener la lista de archivos GeoJSON del directorio (AJAX)
+        // Función para obtener la lista de archivos GeoJSON del directorio
         function cargarArchivosGeoJSON() {
-            // La ruta relativa es importante. Ajusta según la estructura de tu repositorio en GitHub.
-            const geojsonDirectory = './provincias/'; // Ruta a la carpeta "provincias"
+            // Ruta a la carpeta que contiene los archivos GeoJSON
+            const geojsonDirectory = 'provincias/'; // Asegúrate de que esta ruta es correcta
 
-            // Usamos fetch para obtener la lista de archivos desde un archivo llamado "files.txt"
-            fetch('files.txt')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('No se pudo obtener la lista de archivos.');
-                    }
-                    return response.text();
-                })
-                .then(data => {
-                    // Dividimos el texto del archivo en un array de nombres de archivo
-                    const archivosGeoJSON = data.split('\n').filter(Boolean); //Remueve lineas vacias
+            // Lista de nombres de archivo GeoJSON (Hardcoded para GitHub Pages)
+            const archivosGeoJSON = [
+                "Alicante.geojson",
+                "Castellon.geojson",
+                "Valencia.geojson"
+                // Agrega aquí todos los nombres de tus archivos .geojson
+            ];
 
-                    provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
-                    archivosGeoJSON.forEach(archivo => {
-                        const nombreProvincia = archivo.replace('.geojson', '');
-                        const option = document.createElement('option');
-                        // Importante: La ruta debe ser correcta para que Leaflet pueda cargar el archivo.
-                        option.value = `${geojsonDirectory}${archivo}`; // Ruta completa al archivo GeoJSON
-                        option.textContent = nombreProvincia;
-                        provinceSelect.appendChild(option);
-                    });
+            provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
+            archivosGeoJSON.forEach(archivo => {
+                const nombreProvincia = archivo.replace('.geojson', '');
+                const option = document.createElement('option');
+                // Construye la ruta completa al archivo GeoJSON
+                option.value = `${geojsonDirectory}${archivo}`;
+                option.textContent = nombreProvincia;
+                provinceSelect.appendChild(option);
+            });
 
-                    provinceSelect.addEventListener('change', (event) => {
-                        const selectedFile = event.target.value;
-                        if (selectedFile) {
-                            fetch(selectedFile)
-                                .then(response => {
-                                    if (!response.ok) {
-                                        throw new Error(`Error al cargar el archivo: ${selectedFile}`);
-                                    }
-                                    return response.json();
-                                })
-                                .then(geojsonData => {
-                                    displayGeoJSONData(geojsonData);
-                                })
-                                .catch(error => {
-                                    console.error("Error al cargar o procesar GeoJSON:", error);
-                                    resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar el archivo ${selectedFile}. Por favor, verifica la ruta y el formato. Detalles: ${error.message}</li>`;
-                                });
-                        }
-                    });
-                })
-                .catch(error => {
-                    console.error("Error al cargar la lista de archivos:", error);
-                    resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar la lista de provincias. Por favor, verifica la conexión con el servidor. Detalles: ${error.message}</li>`;
-                });
+            provinceSelect.addEventListener('change', (event) => {
+                const selectedFile = event.target.value;
+                if (selectedFile) {
+                    fetch(selectedFile)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Error al cargar el archivo: ${selectedFile}`);
+                            }
+                            return response.json();
+                        })
+                        .then(geojsonData => {
+                            displayGeoJSONData(geojsonData);
+                        })
+                        .catch(error => {
+                            console.error("Error al cargar o procesar GeoJSON:", error);
+                            resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar el archivo ${selectedFile}. Por favor, verifica la ruta y el formato. Detalles: ${error.message}</li>`;
+                        });
+                }
+            });
         }
 
         function displayGeoJSONData(geojsonData) {
@@ -256,5 +247,3 @@
     </script>
 </body>
 </html>
-
-
