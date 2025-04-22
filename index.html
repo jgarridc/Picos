@@ -155,8 +155,11 @@
 
                 // Filtrar features para mostrar solo los que tienen una altura mayor o igual a 1000 metros
                 const filteredFeatures = geojsonData.features.filter(feature => {
-                    const altura = feature.properties.ele; // Accedemos a la altura usando feature.properties.ele
-                    console.log("Feature:", feature); // Añadimos console.log para inspeccionar cada feature
+                    let altura = feature.properties.ele; // Accedemos a la altura usando feature.properties.ele
+                     if (typeof altura !== 'number') {
+                        altura = parseInt(feature.properties.ele);
+                     }
+                    console.log("Feature:", feature);
                     console.log("Altura:", altura);
                     return typeof altura === 'number' && altura >= 1000;
                 });
@@ -192,6 +195,9 @@
                     let lat = null;
                     let lng = null;
                     let altura = feature.properties.ele || null; // Accedemos a la altura usando feature.properties.ele
+                     if (typeof altura !== 'number') {
+                        altura = parseInt(feature.properties.ele);
+                     }
                     if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                         lat = feature.geometry.coordinates[1];
                         lng = feature.geometry.coordinates[0];
@@ -221,8 +227,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
