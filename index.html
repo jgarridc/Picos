@@ -87,6 +87,8 @@
             'Valencia.geojson'
         ];
 
+        let geojsonLayer; // Variable para almacenar la capa GeoJSON
+
         function cargarArchivosGeoJSON() {
             // Limpiar el select
             provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
@@ -131,7 +133,13 @@
                 if (!geojsonData.features || !Array.isArray(geojsonData.features)) {
                     throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
                 }
-                const geojsonLayer = L.geoJSON(geojsonData, {
+
+                // Eliminar la capa anterior si existe
+                if (geojsonLayer) {
+                    map.removeLayer(geojsonLayer);
+                }
+
+                geojsonLayer = L.geoJSON(geojsonData, {
                     onEachFeature: function (feature, layer) {
                         if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                             const lat = feature.geometry.coordinates[1];
@@ -143,10 +151,12 @@
                         }
                     }
                 }).addTo(map);
+
                 const bounds = geojsonLayer.getBounds();
                 if (bounds.isValid()) {
                     map.fitBounds(bounds);
                 }
+
                 let listaHTML = '';
                 let elementCount = 0;
                 const elementos = [];
@@ -190,6 +200,7 @@
     </script>
 </body>
 </html>
+
 
 </body>
 </html>
