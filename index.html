@@ -120,18 +120,19 @@
         function cargarArchivosGeoJSON() {
             // Lista de nombres de archivo GeoJSON
             const archivosGeoJSON = [
-                "Alava.geojson",        "Albacete.geojson",     "Alicante.geojson",
-                "Almeria.geojson",      "Asturias.geojson",     "Avila.geojson",
-                "Badajoz.geojson",      "Barcelona.geojson",    "Burgos.geojson",
-                "Caceres.geojson",      "Castellon.geojson",    "Valencia.geojson",
-                "Madrid.geojson",       "Murcia.geojson",       "Navarra.geojson",
-                "Ourense.geojson",      "Palencia.geojson",     "Pontevedra.geojson",
-                "Rioja.geojson",        "Salamanca.geojson",    "Segovia.geojson",
-                "Sevilla.geojson",      "Soria.geojson",        "Tarragona.geojson",
-                "Teruel.geojson",       "Toledo.geojson",       "Valladolid.geojson",
-                "Zamora.geojson",       "Zaragoza.geojson",    "Gipuzkoa.geojson"
-                // Asegúrate de que ESTOS NOMBRES DE ARCHIVO COINCIDAN EXACTAMENTE con los que tienes.
-                // ¡Incluyendo mayúsculas/minúsculas y la extensión .geojson!
+                "A Coruña.geojson", "Alava.geojson", "Albacete.geojson", "Alicante.geojson",
+                "Almeria.geojson", "Asturias.geojson", "Avila.geojson", "Badajoz.geojson",
+                "Baleares.geojson", "Barcelona.geojson", "Burgos.geojson", "Caceres.geojson",
+                "Cadiz.geojson", "Cantabria.geojson", "Castellon.geojson", "Ciudad Real.geojson",
+                "Cordoba.geojson", "Cuenca.geojson", "Gerona.geojson", "Gipuzkoa.geojson",
+                "Granada.geojson", "Guadalajara.geojson", "Huelva.geojson", "Huesca.geojson",
+                "Jaen.geojson", "La Rioja.geojson", "Las Palmas.geojson", "Leon.geojson",
+                "Lerida.geojson", "Lugo.geojson", "Madrid.geojson", "Malaga.geojson",
+                "Murcia.geojson", "Orense.geojson", "Palencia.geojson", "Pontevedra.geojson",
+                "Salamanca.geojson", "Santa Cruz.geojson", "Segovia.geojson", "Sevilla.geojson",
+                "Soria.geojson", "Tarragona.geojson", "Tenerife.geojson", "Teruel.geojson",
+                "Toledo.geojson", "Valencia.geojson", "Valladolid.geojson", "Vizcaya.geojson",
+                "Zamora.geojson", "Zaragoza.geojson"
             ];
 
             provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
@@ -198,7 +199,7 @@
                             // Corregido el formato de la URL de Google Maps
                             const popupContent = `<b>${feature.properties.name || 'Sin nombre'}</b><br>
                                                   Altura: ${feature.properties.ele || 'N/A'} m<br>
-                                                  <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
+                                                  <a href="https://www.google.com/maps?q={lat},${lng}" target="_blank">Ver en Google Maps</a>`;
                             layer.bindPopup(popupContent);
                         }
                     }
@@ -235,7 +236,7 @@
                     return b.altura - a.altura;
                 });
                 elementos.forEach(elemento => {
-                    listaHTML += `<li><a href="https://www.google.com/maps?q=${elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
+                    listaHTML += `<li><a href="https://www.google.com/maps?q={elemento.lat},${elemento.lng}" target="_blank">${elemento.nombre}</a> - Altura: ${elemento.altura ? elemento.altura + ' m' : 'N/A'}</li>`;
                 });
                 if (elementCount === 0) {
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
@@ -253,6 +254,4 @@
     </script>
 </body>
 </html>
-
-
 
