@@ -116,12 +116,18 @@
 
         // Función para obtener la lista de archivos GeoJSON del directorio
         function cargarArchivosGeoJSON() {
-            // Ruta a la carpeta que contiene los archivos GeoJSON
-            const geojsonDirectory = 'provincias/'; // Asegúrate de que esta ruta es correcta
-
             // Lista de nombres de archivo GeoJSON (Hardcoded para GitHub Pages)
             const archivosGeoJSON = [
+                "Alava.geojson",
+                "Albacete.geojson",
                 "Alicante.geojson",
+                "Almeria.geojson",
+                "Asturias.geojson",
+                "Avila.geojson",
+                "Badajoz.geojson",
+                "Barcelona.geojson",
+                "Burgos.geojson",
+                "Caceres.geojson",
                 "Castellon.geojson",
                 "Valencia.geojson"
                 // Agrega aquí todos los nombres de tus archivos .geojson
@@ -131,8 +137,8 @@
             archivosGeoJSON.forEach(archivo => {
                 const nombreProvincia = archivo.replace('.geojson', '');
                 const option = document.createElement('option');
-                // Construye la ruta completa al archivo GeoJSON
-                option.value = `${geojsonDirectory}${archivo}`;
+                // La ruta al archivo es simplemente el nombre del archivo ahora.
+                option.value = archivo;
                 option.textContent = nombreProvincia;
                 provinceSelect.appendChild(option);
             });
