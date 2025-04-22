@@ -11,16 +11,17 @@
         /* Estilos adicionales para asegurar que el mapa y la lista se muestren correctamente */
         #map {
             height: 500px;
-            width: 100%;
-            margin-bottom: 20px;
+            width: 66.66%;
             border-radius: 0.5rem;
             position: relative;
         }
         .lista-ordenada {
-            margin-top: 20px;
+            margin-top: 0;
             list-style-position: inside;
             overflow-y: auto;
-            max-height: 300px;
+            max-height: 500px;
+            width: 33.33%;
+            padding-right: 1rem;
         }
         .lista-ordenada li {
              padding: 0.5rem 0;
@@ -31,6 +32,7 @@
         }
         body {
             font-family: 'Inter', sans-serif;
+            margin: 0;
         }
         #file-input {
             margin-bottom: 20px;
@@ -42,24 +44,38 @@
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             margin: 20px auto;
             max-width: 90%;
+            flex-direction: column;
         }
         #file-selection{
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 1rem;
+            display: flex; /* Añadimos flexbox para alinear label y select */
+            flex-direction: column;
+            align-items: flex-start; /* Alineamos los elementos al inicio */
         }
         #province-select {
-            margin-bottom: 20px;
-            padding: 0.5rem;
+            margin-bottom: 0; /* Eliminamos el margen inferior del select */
+            padding: 0.375rem 0.75rem;
             border: 1px solid #e2e8f0;
             border-radius: 0.375rem;
+            width: 200px; /* Ancho fijo para el select */
+            font-size: 0.875rem;
+            height: auto; /* Aseguramos que la altura se ajuste al contenido */
+        }
+        .map-and-list {
+            display: flex;
+            flex-direction: row;
             width: 100%;
-            font-size: 1rem;
+            align-items: stretch;
+            margin-top: 1rem;
+        }
+        #file-selection label {
+            margin-bottom: 0.25rem; /* Añadimos un pequeño margen inferior al label */
         }
     </style>
 </head>
 <body class="bg-gray-100 p-4">
     <div class="container">
-        <div id="map"></div>
         <div id="file-selection" class="mb-4">
             <label for="province-select" class="block text-gray-700 text-sm font-bold mb-2">Selecciona una provincia:</label>
             <select id="province-select" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
@@ -67,8 +83,11 @@
             </select>
             <p id="file-input-error" class="text-red-500 text-xs italic" style="display: none;">Por favor, selecciona un archivo GeoJSON.</p>
         </div>
-        <ol id="resultados-lista" class="lista-ordenada">
-        </ol>
+        <div class="map-and-list">
+            <div id="map"></div>
+            <ol id="resultados-lista" class="lista-ordenada">
+            </ol>
+        </div>
     </div>
     <script>
         const valenciaCoordinates = [39.4667, -0.3750];
@@ -87,10 +106,9 @@
             'Valencia.geojson'
         ];
 
-        let geojsonLayer; // Variable para almacenar la capa GeoJSON, ¡importante!
+        let geojsonLayer;
 
         function cargarArchivosGeoJSON() {
-            // Limpiar el select
             provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
             archivosGeoJSON.forEach(archivo => {
                 const nombreProvincia = archivo.replace('.geojson', '');
@@ -100,7 +118,6 @@
                 provinceSelect.appendChild(option);
             });
 
-            // Añadir evento de cambio al select
             provinceSelect.addEventListener('change', (event) => {
                 const selectedFile = event.target.value;
                 if (selectedFile) {
@@ -125,7 +142,6 @@
         function displayGeoJSONData(geojsonData) {
             resultadosLista.innerHTML = '';
             try {
-                // Verificar si es un objeto GeoJSON válido
                 if (!geojsonData || typeof geojsonData !== 'object' || geojsonData.type !== 'FeatureCollection') {
                     throw new Error("No es un objeto GeoJSON válido. Debe ser un FeatureCollection.");
                 }
@@ -133,12 +149,11 @@
                     throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
                 }
 
-                // Eliminar la capa anterior si existe.  ¡Aquí está la clave!
                 if (geojsonLayer) {
                     map.removeLayer(geojsonLayer);
                 }
 
-                geojsonLayer = L.geoJSON(geojsonData, { // Ahora asignamos la capa a la variable global
+                geojsonLayer = L.geoJSON(geojsonData, {
                     onEachFeature: function (feature, layer) {
                         if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                             const lat = feature.geometry.coordinates[1];
@@ -170,7 +185,6 @@
                         lat = feature.geometry.coordinates[1];
                         lng = feature.geometry.coordinates[0];
                     }
-                    // Comprobar si la propiedad 'name' existe antes de acceder a ella
                     nombre = feature.properties && feature.properties.name ? feature.properties.name : "Sin nombre";
                     elementos.push({ nombre, tipo, lat, lng, altura });
                 });
@@ -194,7 +208,6 @@
             }
         }
 
-        // Cargar los archivos GeoJSON automáticamente al cargar la página
         window.onload = cargarArchivosGeoJSON;
     </script>
 </body>
