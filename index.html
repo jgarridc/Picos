@@ -116,29 +116,21 @@
 
         // Función para obtener la lista de archivos GeoJSON del directorio
         function cargarArchivosGeoJSON() {
-            // Lista de nombres de archivo GeoJSON (Hardcoded para GitHub Pages)
+            // Lista de nombres de archivo GeoJSON
             const archivosGeoJSON = [
-                "Alava.geojson",
-                "Albacete.geojson",
-                "Alicante.geojson",
-                "Almeria.geojson",
-                "Asturias.geojson",
-                "Avila.geojson",
-                "Badajoz.geojson",
-                "Barcelona.geojson",
-                "Burgos.geojson",
-                "Caceres.geojson",
-                "Castellon.geojson",
-                "Valencia.geojson"
-                // Agrega aquí todos los nombres de tus archivos .geojson
+                "Alava.geojson",        "Albacete.geojson",     "Alicante.geojson",
+                "Almeria.geojson",      "Asturias.geojson",     "Avila.geojson",
+                "Badajoz.geojson",      "Barcelona.geojson",    "Burgos.geojson",
+                "Caceres.geojson",      "Castellon.geojson",    "Valencia.geojson"
+                // Asegúrate de que ESTOS NOMBRES DE ARCHIVO COINCIDAN EXACTAMENTE con los que tienes.
+                // ¡Incluyendo mayúsculas/minúsculas y la extensión .geojson!
             ];
 
             provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
             archivosGeoJSON.forEach(archivo => {
-                const nombreProvincia = archivo.replace('.geojson', '');
+                const nombreProvincia = archivo.replace('.geojson', ''); // Elimina .geojson
                 const option = document.createElement('option');
-                // La ruta al archivo es simplemente el nombre del archivo ahora.
-                option.value = archivo;
+                option.value = archivo;  // Usa el nombre del archivo como valor
                 option.textContent = nombreProvincia;
                 provinceSelect.appendChild(option);
             });
@@ -146,7 +138,7 @@
             provinceSelect.addEventListener('change', (event) => {
                 const selectedFile = event.target.value;
                 if (selectedFile) {
-                    fetch(selectedFile)
+                    fetch(selectedFile) // Usa la ruta directa al archivo
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`Error al cargar el archivo: ${selectedFile}`);
@@ -180,11 +172,9 @@
 
                 const filteredFeatures = geojsonData.features.filter(feature => {
                     let altura = feature.properties.ele;
-                     if (typeof altura !== 'number') {
+                    if (typeof altura !== 'number') {
                         altura = parseInt(feature.properties.ele);
-                     }
-                    console.log("Feature:", feature);
-                    console.log("Altura:", altura);
+                    }
                     return typeof altura === 'number' && altura >= 1000;
                 });
 
@@ -198,7 +188,7 @@
                             const lng = feature.geometry.coordinates[0];
                             const popupContent = `<b>${feature.properties.name || 'Sin nombre'}</b><br>
                                                   Altura: ${feature.properties.ele || 'N/A'} m<br>
-                                                  <a href="https://www.google.com/maps/place/$${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
+                                                  <a href="https://www.google.com/maps/place/$$${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
                             layer.bindPopup(popupContent);
                         }
                     }
@@ -219,9 +209,9 @@
                     let lat = null;
                     let lng = null;
                     let altura = feature.properties.ele || null;
-                     if (typeof altura !== 'number') {
+                    if (typeof altura !== 'number') {
                         altura = parseInt(feature.properties.ele);
-                     }
+                    }
                     if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                         lat = feature.geometry.coordinates[1];
                         lng = feature.geometry.coordinates[0];
