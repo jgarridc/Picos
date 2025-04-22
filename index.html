@@ -76,11 +76,13 @@
             margin-top: 1rem;
             font-size: 1.25rem;
             font-weight: bold;
-            color: #dc2626;
             text-align: center;
             width: 66.66%;
             margin-left: auto;
             margin-right: auto;
+        }
+        #peak-count span {
+            color: #dc2626;
         }
     </style>
 </head>
@@ -228,7 +230,7 @@
                     listaHTML = `<li class="text-gray-500">No se encontraron elementos que superen los 1000 metros de altura en el archivo GeoJSON.</li>`;
                 }
                 resultadosLista.innerHTML = listaHTML;
-                peakCountElement.innerHTML = `<b>Total de picos de más de 1000 metros: </b>${numberOfPicos}`;
+                peakCountElement.innerHTML = `<b>Total de picos de más de 1000 metros: </b><span>${numberOfPicos}</span>`;
             } catch (error) {
                 console.error("Error al procesar GeoJSON:", error);
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
