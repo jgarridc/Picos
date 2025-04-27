@@ -8,7 +8,6 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        /* Estilos adicionales para asegurar que el mapa y la lista se muestren correctamente */
         #map {
             height: 500px;
             width: 66.66%;
@@ -24,11 +23,11 @@
             padding-right: 1rem;
         }
         .lista-ordenada li {
-             padding: 0.5rem 0;
-             border-bottom: 1px solid rgba(229, 231, 1);
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(229, 231, 1);
         }
         .lista-ordenada li:last-child {
-             border-bottom: none;
+            border-bottom: none;
         }
         body {
             font-family: 'Inter', sans-serif;
@@ -46,7 +45,7 @@
             max-width: 90%;
             flex-direction: column;
         }
-        #file-selection{
+                                         <div id="file-selection {
             width: 100%;
             margin-bottom: 1rem;
             display: flex;
@@ -102,7 +101,7 @@
             font-size: 0.875rem;
             color: #4a5568;
         }
-        #execute-button, #download-csv-button {
+        #execute-button, #download-csv-button, #download-all-csv-button {
             margin-top: 1rem;
             padding: 0.5rem 1rem;
             background-color: #4caf50;
@@ -115,10 +114,10 @@
             align-self: flex-start;
             margin-right: 1rem;
         }
-        #execute-button:hover, #download-csv-button:hover {
+        #execute-button:hover, #download-csv-button:hover, #download-all-csv-button:hover {
             background-color: #45a049;
         }
-        #execute-button:disabled, #download-csv-button:disabled {
+        #execute-button:disabled, #download-csv-button:disabled, #download-all-csv-button:disabled {
             background-color: #a0aec0;
             cursor: not-allowed;
             opacity: 0.6;
@@ -139,7 +138,8 @@
                 <input type="number" id="max-height" placeholder="Máxima">
             </div>
             <button id="execute-button" disabled>Ejecutar</button>
-            <button id="download-csv-button" disabled>Descargar CSV</button>
+            <button id="download-csv-button" disabled>Descargar CSV Provincia</button>
+            <button id="download-all-csv-button">Descargar Todos los Picos</button>
             <p id="file-input-error" class="text-red-500 text-xs italic" style="display: none;">Por favor, selecciona un archivo GeoJSON.</p>
         </div>
         <div class="map-and-list">
@@ -164,44 +164,115 @@
         const maxHeightInput = document.getElementById('max-height');
         const executeButton = document.getElementById('execute-button');
         const downloadCsvButton = document.getElementById('download-csv-button');
+        const downloadAllCsvButton = document.getElementById('download-all-csv-button');
 
-        let geojsonLayer; // Declarar geojsonLayer en el ámbito global
-        let filteredFeatures = []; // Almacenar las características filtradas para el CSV
+        let geojsonLayer;
+        let filteredFeatures = [];
 
-        // Función para generar y descargar el archivo CSV
-        function downloadCSV() {
+        // Función para generar y descargar el CSV de la provincia seleccionada
+        function downloadProvinceCSV() {
             if (filteredFeatures.length === 0) {
                 alert("No hay datos para descargar. Por favor, ejecuta una búsqueda primero.");
                 return;
             }
 
-            // Crear el encabezado del CSV
-            let csvContent = "Nombre,Altura (m),Latitud,Longitud\n";
+            let csvContent = "Nombre,Altura (m),Latitud,Longitud,Provincia\n";
+            const selectedProvince = provinceSelect.options[provinceSelect.selectedIndex].text;
 
-            // Procesar las características filtradas
             filteredFeatures.forEach(feature => {
                 const nombre = feature.properties.name ? `"${feature.properties.name.replace(/"/g, '""')}"` : "Sin nombre";
                 const altura = feature.properties.ele || "N/A";
                 const lat = feature.geometry.coordinates[1] || "N/A";
                 const lng = feature.geometry.coordinates[0] || "N/A";
-                csvContent += `${nombre},${altura},${lat},${lng}\n`;
+                csvContent += `${nombre},${altura},${lat},${lng},${selectedProvince}\n`;
             });
 
-            // Crear un enlace temporal para la descarga
             const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement("a");
             const url = URL.createObjectURL(blob);
             link.setAttribute("href", url);
-            link.setAttribute("download", `picos_${provinceSelect.options[provinceSelect.selectedIndex].text}.csv`);
+            link.setAttribute("download", `picos_${selectedProvince}.csv`);
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             URL.revokeObjectURL(url);
         }
 
+        // Función para generar y descargar el CSV de todos los picos
+        async function downloadAllPicosCSV() {
+            downloadAllCsvButton.disabled = true;
+            downloadAllCsvButton.textContent = "Procesando...";
+
+            const archivosGeoJSON = [
+                "A Coruna.geojson", "Alava.geojson", "Albacete.geojson", "Alicante.geojson",
+                "Almeria.geojson", "Asturias.geojson", "Avila.geojson", "Badajoz.geojson",
+                "Baleares.geojson", "Barcelona.geojson", "Burgos.geojson", "Caceres.geojson",
+                "Cadiz.geojson", "Cantabria.geojson", "Castellon.geojson", "Ciudad Real.geojson",
+                "Cordoba.geojson", "Cuenca.geojson", "Gerona.geojson", "Gipuzkoa.geojson",
+                "Granada.geojson", "Guadalajara.geojson", "Huelva.geojson", "Huesca.geojson",
+                "Jaen.geojson", "La Rioja.geojson", "Las Palmas.geojson", "Leon.geojson",
+                "Lerida.geojson", "Lugo.geojson", "Madrid.geojson", "Malaga.geojson",
+                "Murcia.geojson", "Orense.geojson", "Palencia.geojson", "Pontevedra.geojson",
+                "Salamanca.geojson", "Santa Cruz.geojson", "Segovia.geojson", "Sevilla.geojson",
+                "Soria.geojson", "Tarragona.geojson", "Tenerife.geojson", "Teruel.geojson",
+                "Toledo.geojson", "Valencia.geojson", "Valladolid.geojson", "Vizcaya.geojson",
+                "Zamora.geojson", "Zaragoza.geojson"
+            ];
+
+            let allFeatures = [];
+            for (const archivo of archivosGeoJSON) {
+                try {
+                    const response = await fetch(archivo);
+                    if (!response.ok) {
+                        console.warn(`Error al cargar ${archivo}: ${response.status}`);
+                        continue;
+                    }
+                    const geojsonData = await response.json();
+                    if (geojsonData.type === 'FeatureCollection' && Array.isArray(geojsonData.features)) {
+                        const provinceName = archivo.replace('.geojson', '');
+                        geojsonData.features.forEach(feature => {
+                            feature.province = provinceName; // Añadir nombre de provincia
+                            allFeatures.push(feature);
+                        });
+                    }
+                } catch (error) {
+                    console.error(`Error al procesar ${archivo}:`, error);
+                }
+            }
+
+            if (allFeatures.length === 0) {
+                alert("No se pudieron cargar datos de ninguna provincia.");
+                downloadAllCsvButton.disabled = false;
+                downloadAllCsvButton.textContent = "Descargar Todos los Picos";
+                return;
+            }
+
+            let csvContent = "Nombre,Altura (m),Latitud,Longitud,Provincia\n";
+            allFeatures.forEach(feature => {
+                const nombre = feature.properties.name ? `"${feature.properties.name.replace(/"/g, '""')}"` : "Sin nombre";
+                const altura = feature.properties.ele || "N/A";
+                const lat = feature.geometry.coordinates[1] || "N/A";
+                const lng = feature.geometry.coordinates[0] || "N/A";
+                const province = feature.province;
+                csvContent += `${nombre},${altura},${lat},${lng},${province}\n`;
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement("a");
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", "picos_todos.csv");
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+
+            downloadAllCsvButton.disabled = false;
+            downloadAllCsvButton.textContent = "Descargar Todos los Picos";
+        }
+
         // Función para obtener la lista de archivos GeoJSON del directorio
         function cargarArchivosGeoJSON() {
-            // Lista de nombres de archivo GeoJSON
             const archivosGeoJSON = [
                 "A Coruna.geojson", "Alava.geojson", "Albacete.geojson", "Alicante.geojson",
                 "Almeria.geojson", "Asturias.geojson", "Avila.geojson", "Badajoz.geojson",
@@ -220,9 +291,9 @@
 
             provinceSelect.innerHTML = '<option value="" disabled selected>Selecciona una provincia</option>';
             archivosGeoJSON.forEach(archivo => {
-                const nombreProvincia = archivo.replace('.geojson', ''); // Elimina .geojson
+                const nombreProvincia = archivo.replace('.geojson', '');
                 const option = document.createElement('option');
-                option.value = archivo;  // Usa el nombre del archivo como valor
+                option.value = archivo;
                 option.textContent = nombreProvincia;
                 provinceSelect.appendChild(option);
             });
@@ -240,7 +311,7 @@
             executeButton.addEventListener('click', () => {
                 const selectedFile = provinceSelect.value;
                 if (selectedFile) {
-                    fetch(selectedFile) // Usa la ruta directa al archivo
+                    fetch(selectedFile)
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`Error al cargar el archivo: ${selectedFile}`);
@@ -249,7 +320,7 @@
                         })
                         .then(geojsonData => {
                             displayGeoJSONData(geojsonData);
-                            downloadCsvButton.disabled = filteredFeatures.length === 0; // Habilitar/deshabilitar botón según resultados
+                            downloadCsvButton.disabled = filteredFeatures.length === 0;
                         })
                         .catch(error => {
                             console.error("Error al cargar o procesar GeoJSON:", error);
@@ -259,13 +330,14 @@
                 }
             });
 
-            downloadCsvButton.addEventListener('click', downloadCSV);
+            downloadCsvButton.addEventListener('click', downloadProvinceCSV);
+            downloadAllCsvButton.addEventListener('click', downloadAllPicosCSV);
         }
 
         function displayGeoJSONData(geojsonData) {
             resultadosLista.innerHTML = '';
             if (geojsonLayer) {
-                map.removeLayer(geojsonLayer); // Limpiar capa anterior
+                map.removeLayer(geojsonLayer);
             }
             try {
                 if (!geojsonData || typeof geojsonData !== 'object' || geojsonData.type !== 'FeatureCollection') {
@@ -275,14 +347,13 @@
                     throw new Error("El objeto GeoJSON debe contener un array de 'features'.");
                 }
 
-                // Obtener los valores de altura mínima y máxima
                 const minHeight = parseFloat(minHeightInput.value) || -Infinity;
                 const maxHeight = parseFloat(maxHeightInput.value) || Infinity;
 
                 filteredFeatures = geojsonData.features.filter(feature => {
                     let altura = feature.properties.ele;
                     if (typeof altura !== 'number') {
-                         altura = parseFloat(feature.properties.ele);
+                        altura = parseFloat(feature.properties.ele);
                     }
                     return typeof altura === 'number' && !isNaN(altura) && altura >= minHeight && altura <= maxHeight;
                 });
