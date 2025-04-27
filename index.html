@@ -102,7 +102,7 @@
             font-size: 0.875rem;
             color: #4a5568;
         }
-        #execute-button {
+        #execute-button, #download-csv-button {
             margin-top: 1rem;
             padding: 0.5rem 1rem;
             background-color: #4caf50;
@@ -113,11 +113,12 @@
             transition: background-color 0.3s ease;
             border: none;
             align-self: flex-start;
+            margin-right: 1rem;
         }
-        #execute-button:hover {
+        #execute-button:hover, #download-csv-button:hover {
             background-color: #45a049;
         }
-        #execute-button:disabled {
+        #execute-button:disabled, #download-csv-button:disabled {
             background-color: #a0aec0;
             cursor: not-allowed;
             opacity: 0.6;
@@ -138,6 +139,7 @@
                 <input type="number" id="max-height" placeholder="Máxima">
             </div>
             <button id="execute-button" disabled>Ejecutar</button>
+            <button id="download-csv-button" disabled>Descargar CSV</button>
             <p id="file-input-error" class="text-red-500 text-xs italic" style="display: none;">Por favor, selecciona un archivo GeoJSON.</p>
         </div>
         <div class="map-and-list">
@@ -161,8 +163,41 @@
         const minHeightInput = document.getElementById('min-height');
         const maxHeightInput = document.getElementById('max-height');
         const executeButton = document.getElementById('execute-button');
+        const downloadCsvButton = document.getElementById('download-csv-button');
 
         let geojsonLayer; // Declarar geojsonLayer en el ámbito global
+        let filteredFeatures = []; // Almacenar las características filtradas para el CSV
+
+        // Función para generar y descargar el archivo CSV
+        function downloadCSV() {
+            if (filteredFeatures.length === 0) {
+                alert("No hay datos para descargar. Por favor, ejecuta una búsqueda primero.");
+                return;
+            }
+
+            // Crear el encabezado del CSV
+            let csvContent = "Nombre,Altura (m),Latitud,Longitud\n";
+
+            // Procesar las características filtradas
+            filteredFeatures.forEach(feature => {
+                const nombre = feature.properties.name ? `"${feature.properties.name.replace(/"/g, '""')}"` : "Sin nombre";
+                const altura = feature.properties.ele || "N/A";
+                const lat = feature.geometry.coordinates[1] || "N/A";
+                const lng = feature.geometry.coordinates[0] || "N/A";
+                csvContent += `${nombre},${altura},${lat},${lng}\n`;
+            });
+
+            // Crear un enlace temporal para la descarga
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement("a");
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", `picos_${provinceSelect.options[provinceSelect.selectedIndex].text}.csv`);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
 
         // Función para obtener la lista de archivos GeoJSON del directorio
         function cargarArchivosGeoJSON() {
@@ -198,6 +233,7 @@
                     executeButton.disabled = false;
                 } else {
                     executeButton.disabled = true;
+                    downloadCsvButton.disabled = true;
                 }
             });
 
@@ -213,17 +249,24 @@
                         })
                         .then(geojsonData => {
                             displayGeoJSONData(geojsonData);
+                            downloadCsvButton.disabled = filteredFeatures.length === 0; // Habilitar/deshabilitar botón según resultados
                         })
                         .catch(error => {
                             console.error("Error al cargar o procesar GeoJSON:", error);
                             resultadosLista.innerHTML += `<li class="text-red-500">Error al cargar el archivo ${selectedFile}. Por favor, verifica la ruta y el formato. Detalles: ${error.message}</li>`;
+                            downloadCsvButton.disabled = true;
                         });
                 }
             });
+
+            downloadCsvButton.addEventListener('click', downloadCSV);
         }
 
         function displayGeoJSONData(geojsonData) {
             resultadosLista.innerHTML = '';
+            if (geojsonLayer) {
+                map.removeLayer(geojsonLayer); // Limpiar capa anterior
+            }
             try {
                 if (!geojsonData || typeof geojsonData !== 'object' || geojsonData.type !== 'FeatureCollection') {
                     throw new Error("No es un objeto GeoJSON válido. Debe ser un FeatureCollection.");
@@ -236,23 +279,22 @@
                 const minHeight = parseFloat(minHeightInput.value) || -Infinity;
                 const maxHeight = parseFloat(maxHeightInput.value) || Infinity;
 
-                const filteredFeatures = geojsonData.features.filter(feature => {
+                filteredFeatures = geojsonData.features.filter(feature => {
                     let altura = feature.properties.ele;
                     if (typeof altura !== 'number') {
-                         altura = parseInt(feature.properties.ele);
+                         altura = parseFloat(feature.properties.ele);
                     }
-                    return typeof altura === 'number' && altura >= minHeight && altura <= maxHeight;
+                    return typeof altura === 'number' && !isNaN(altura) && altura >= minHeight && altura <= maxHeight;
                 });
 
                 const filteredGeojsonData = { ...geojsonData, features: filteredFeatures };
                 const numberOfPicos = filteredGeojsonData.features.length;
 
-                geojsonLayer = L.geoJSON(filteredGeojsonData, { // Asignar a la variable global
+                geojsonLayer = L.geoJSON(filteredGeojsonData, {
                     onEachFeature: function (feature, layer) {
                         if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                             const lat = feature.geometry.coordinates[1];
                             const lng = feature.geometry.coordinates[0];
-                            // Construir la URL de Google Maps correctamente
                             const popupContent = `<b>${feature.properties.name || 'Sin nombre'}</b><br>
                                                   Altura: ${feature.properties.ele || 'N/A'} m<br>
                                                   <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank">Ver en Google Maps</a>`;
@@ -277,7 +319,7 @@
                     let lng = null;
                     let altura = feature.properties.ele || null;
                     if (typeof altura !== 'number') {
-                        altura = parseInt(feature.properties.ele);
+                        altura = parseFloat(feature.properties.ele);
                     }
                     if (feature.geometry && feature.geometry.type === 'Point' && Array.isArray(feature.geometry.coordinates)) {
                         lat = feature.geometry.coordinates[1];
@@ -303,6 +345,8 @@
                 console.error("Error al procesar GeoJSON:", error);
                 resultadosLista.innerHTML = `<li class="text-red-500">Error al procesar el archivo GeoJSON. Por favor, verifica el formato. Detalles: ${error.message}</li>`;
                 peakCountElement.textContent = '';
+                filteredFeatures = [];
+                downloadCsvButton.disabled = true;
             }
         }
 
